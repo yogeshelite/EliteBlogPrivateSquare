@@ -1,0 +1,105 @@
+﻿
+@{
+    ViewBag.Title = "Carrer";
+}
+<section class="we_are_passionate_page_wrp">
+    <!-- start worldwide root -->
+    <main class="container">
+        <article class="case_study_banner">
+            <!--container start-->
+            <h1><span class="clr-we-are">We are</span> Passionate</h1>
+        </article>
+    </main>
+    <!-- worldwide root end here -->
+    <main class="container">
+
+        <!-- Image section start-->
+        <section class="case_study_image">
+            <img src="~/Content/Images/desktp-passion-img.png">
+        </section><!-- Image section end-->
+        <!--- company qualities start -->
+        <section class="team-qualities">
+            <div class="team-effrt mb-teameffrt">
+                <div class="team-effrt-content-1 pull-left team-effort-mr">
+                    <img src="~/Content/Images/team-effrt-img1.svg" class="pull-left  aos-item" data-aos="fade-right" />
+
+                    <h3 class="aos-item" data-aos="fade-up">Hard Work</h3>
+
+                    <p class="aos-item" data-aos="fade-up">Our teams apply their skills and creativity. They work hard for perfection and deliver!</p>
+                </div>
+                <div class="team-effrt-content-1">
+                    <img src="~/Content/Images/team-effrt-img3.svg" class="pull-left  aos-item" data-aos="fade-right" />
+
+                    <h3 class="aos-item" data-aos="fade-up">Mutual Respect</h3>
+
+                    <p class="aos-item" data-aos="fade-up">We believe in love and respect for one another. This is how we learn and grow.</p>
+                </div>
+
+            </div>
+
+            <div class="team-effrt mb-contents">
+                <div class="team-effrt-content-1 pull-left team-effort-mr">
+                    <img src="~/Content/Images/team-effrt-img2.svg" class="pull-left  aos-item" data-aos="fade-right" />
+
+                    <h3 class="aos-item" data-aos="fade-up">Integrity</h3>
+
+                    <p class="aos-item" data-aos="fade-up">We are true to our work and vision. Our mission is to deliver nothing but excellence.</p>
+                </div>
+                <div class="team-effrt-content-1">
+                    <img src="~/Content/Images/team-effrt-img4.svg" class="pull-left  aos-item" data-aos="fade-right" />
+
+                    <h3 class="aos-item" data-aos="fade-up">We’re Fun!</h3>
+
+                    <p class="aos-item" data-aos="fade-up">We’re not just all work and no play. There’s never a dull day at work!</p>
+                </div>
+
+            </div>
+
+
+        </section>
+        <!--- company qualities end -->
+
+
+    </main><!--container end-->
+    <!---current openings start-->
+    <section class="current-opnening">
+        <div class="container">
+            <!--- container start-->
+            <div class="bg-current-opning  aos-item" data-aos="fade-up">
+                <h2>Look! We’re Hiring.</h2>
+            </div>
+            <div class="opnening-content">
+                <div class="stack-develop  aos-item" data-aos="fade-up">
+                    <a href="@Url.Action("Career_Detail","Home")">
+                        <h3>UI Designer</h3>
+                        <p>You will design user-machine interactions spanning over devices<span class="chd-text aos-item" data-aos="fade-left">CHANDIGARH</span><br> such as computers, mobiles and website and more!</p>
+                    </a>
+                </div>
+                <div class="stack-develop mt-android  aos-item" data-aos="fade-up">
+                    <a href="@Url.Action("Career_Detail","Home")">
+                        <h3>Business Analyst </h3>
+                        <p>You will analyze an organization and also document its processes<span class="chd-text aos-item" data-aos="fade-left">CHANDIGARH</span><br> or systems, and its integration with technology.</p>
+                    </a>
+                </div>
+                <div class="stack-develop mt-android  aos-item" data-aos="fade-up">
+                    <a href="@Url.Action("Career_Detail","Home")">
+                        <h3>Android Developer</h3>
+                        <p>You will create new applications for Android devices.<span class="chd-text aos-item" data-aos="fade-left">CHANDIGARH</span><br> Knowledge of Java, and C++ and the like is essential.</p>
+                    </a>
+                </div>
+                <div class="stack-develop mt-android  aos-item" data-aos="fade-up">
+                    <a href="@Url.Action("Career_Detail","Home")">
+                        <h3>Full Stack Developer </h3>
+                        <p>You will have to handle all the work of databases,<span class="chd-text cant-find-profile  aos-item" data-aos="fade-left">CHANDIGARH</span><br> systems engineering, servers, and clients.</p>
+                    </a>
+                </div>
+                <div class="cant-find-profile  aos-item" data-aos="fade-up" style=" margin-bottom:50px;">
+                    <h3>Can't find your profile?</h3>
+                    <p>We are always looking for new talent, kindly mail us your resume<br><a href="#" class="text_deco">careers@elitewebtechnologies.com</a></p>
+                </div>
+            </div>
+        </div>   <!--- container end-->
+        @Html.Partial("~/Views/Shared/footer_top.cshtml")
+    </section> <!---current opening end-->
+</section>
+

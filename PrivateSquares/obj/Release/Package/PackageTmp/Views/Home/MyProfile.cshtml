@@ -1,0 +1,324 @@
+﻿@model PrivateSquares.Models.Profile
+@{
+    ViewBag.Title = "PersonalDetail";
+    Layout = "~/Views/Shared/_HeaderFooter.cshtml";
+}
+
+<div class="slim-mainpanel">
+    <div class="container">
+        <div class="slim-pageheader">
+            <div class="p-private">
+                <label class="ckbox">
+                    <input type="checkbox" value="0" onchange="selectgroup();" id="chkprofile"><span>Private Profile</span>
+                </label>
+            </div>
+            <h6 class="slim-pagetitle">My Profile</h6>
+        </div><!-- slim-pageheader -->
+
+        <div class="section-wrapper">
+            <div class="form-layout">
+                <div class="row mg-b-25">
+
+                    <div class="col-lg-3 pull-left">
+                        <img id="Uploadimg" class="img-fluid" alt="">
+                        <input id="fileImage" type="file" value="Upload image" class="btn btn-outline-primary btn-block btn_border my-sm-3"><span class="upload_icon"></span>
+                    </div><!-- col-6 -->
+
+
+                    <div class="col-lg-9 pull-right">
+                        <h3 class="card-profile-name">Personal Information</h3>
+
+                        <div class="row">
+
+                            <div class="col-lg-6">
+
+                                <div class="form-group">
+                                    <label class="form-control-label">Firstname:</label>
+                                    @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control", id = "txtfirstname" })
+                                    @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+                                </div>
+                            </div><!-- col-3 -->
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label">Lastname: </label>
+                                    @Html.TextBoxFor(m => m.LastName, new { @class = "form-control", id = "txtlastname" })
+                                    @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+                                </div>
+                            </div><!-- col-3 -->
+
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label">Company:</label>
+                                    @Html.TextBoxFor(m => m.Company, new { @class = "form-control", id = "txtcompany", placeholder = "Enter Company Name" })
+                                </div>
+                            </div><!-- col-3 -->
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label">Job Title:</label>
+                                    @*@Html.TextBoxFor(m => m.JobTitle, new { @class = "form-control", id = "txtcompany", placeholder = "Enter Job Name" })*@
+
+                                    <input class="form-control" type="text" id="txtjob" name="jobtitle" value="McDoe" placeholder="Enter Job Title">
+                                </div>
+                            </div><!-- col-3 -->
+
+                            <div class="col-lg-12 mg-t-20 mg-b-0">
+                                <h3 class="card-profile-name">Contact Information</h3>
+                            </div>
+                            <div class="col-lg-6 my-sm-3">
+
+                                <div class="form-group">
+                                    <div class="input-group">
+
+                                        <label class="form-control-label label_wdth">Email:</label>
+
+                                        <input type="text" class="form-control" id="txtemail" name="email" value="" placeholder="Enter Email.">
+                                        <span class="input-group-btn">
+                                            <button class=" btn btn-secondary" type="button" onclick="EmailAdd();">Add</button>
+                                        </span>
+
+                                    </div>
+                                    <hr />
+                                    <!-- list -->
+                                    <div class="data-list" id="divEmailSpan">
+                                        <ul id="ulEmailSpan">
+                                         
+                                        </ul>
+                                    </div>
+                                    <!-- list -->
+                                </div>
+                            </div><!-- col-3-->
+                            <div class="col-lg-6 my-sm-3">
+
+                                <div class="form-group">
+                                    <div class="input-group">
+
+                                        <label class="form-control-label label_wdth">Phone:</label>
+
+                                        <input type="text" class="form-control" id="txtphno" name="phone" placeholder="Enter Phone No.">
+                                        <span class="input-group-btn">
+                                            <button class=" btn btn-secondary" type="button" onclick="PhoneAdd();">Add</button>
+                                        </span>
+
+                                    </div>
+                                    <hr />
+                                    <!-- list -->
+                                    <div class="data-list" id="divPhoneSpan">
+                                        <ul id="ulPhoneSpan">
+                                            
+                                        </ul>
+                                    </div>
+                                    <!-- list -->
+                                </div>
+                            </div><!--col-3-->
+
+                            <div class="col-lg-12 mg-t-20 mg-b-0">
+                                <h3 class="card-profile-name">Address</h3>
+                            </div>
+                            <div class="col-lg-4">
+
+                                <div class="form-group">
+                                    <div class="input-group">
+
+                                        <label class="form-control-label label_wdth">Street:</label>
+
+                                        <input type="text" class="form-control" id="txtstreet" name="address" placeholder="Enter Addess">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="form-group mg-b-10-force">
+                                    <label class="form-control-label">City:</label>
+                                    <input class="form-control" id="txtcity" type="text" name="address" placeholder="Enter City">
+                                </div>
+                            </div><!-- col-3-->
+
+                            <div class="col-lg-4">
+                                <div class="form-group mg-b-10-force">
+                                    <label class="form-control-label">State:</label>
+                                    <input class="form-control" id="txtstate" type="text" name="address" placeholder="Enter State">
+                                </div>
+                            </div><!-- col-3 -->
+                            <div class="col-lg-4">
+                                <div class="form-group mg-b-10-force">
+                                    <label class="form-control-label">Country:</label>
+                                    <select class="form-control select2" data-placeholder="Choose country" id="ddlcountry">
+                                        <option label="Choose country">
+                                        <option value="235">Vatican City State (Holy See)</option>
+                                        <option selected="" value="0">Choose...</option>
+                                        <option value="234">Vanuatu (Former New Hebrides)</option>
+                                        <option value="231">United States Minor Outlying Islands</option>
+                                        <option value="226">Uganda, Republic of</option>
+                                        <option value="225">Tuvalu (Former Ellice Islands)</option>
+                                        <option value="224">Turks and Caicos Islands</option>
+                                        <option value="220">Tromelin Island</option>
+                                        <option value="198">Slovenia</option>
+                                        <option value="196">Singapore</option>
+                                        <option value="191">Saudi Arabia </option>
+                                        <option value="185">Saint Lucia </option>
+                                        <option value="183">Saint Helena </option>
+                                        <option value="182">Rwanda (Rwandese Republic) (Former Ruanda)</option>
+                                        <option value="181">Russian Federation </option>
+                                        <option value="179">Romania </option>
+                                        <option value="178">Reunion (French) (Former Bourbon Island)</option>
+                                        <option value="177">Qatar, State of </option>
+                                        <option value="176">Puerto Rico </option>
+                                        <option value="175">Portugal </option>
+                                        <option value="174">Poland </option>
+                                        <option value="173">Pitcairn Island</option>
+                                        <option value="170">Paraguay </option>
+                                        <option value="168">Panama </option>
+                                        <option value="167">Palestinian State (Proposed)</option>
+                                        <option value="165">Pakistan (Former West Pakistan)</option>
+                                        <option value="163">Norway </option>
+                                        <option value="161">Norfolk Island </option>
+                                        <option value="160">Niue (Former Savage Island)</option>
+                                        <option value="159">Nigeria </option>
+                                        <option value="156">New Zealand (Aotearoa) </option>
+                                        <option value="155">New Caledonia </option>
+                                        <option value="145">Mongolia (Former Outer Mongolia)</option>
+                                        <option value="143">Moldova, Republic of</option>
+                                        <option value="141">Mexico </option>
+                                        <option value="139">Mauritius </option>
+                                        <option value="138">Mauritania </option>
+                                        <option value="137">Martinique (French) </option>
+                                        <option value="135">Malta </option>
+                                        <option value="133">Maldives </option>
+                                        <option value="132">Malaysia </option>
+                                        <option value="128">Macau </option>
+                                        <option value="123">Liberia </option>
+                                        <option value="121">Lebanon </option>
+                                        <option value="117">Kuwait </option>
+                                        <option value="116">Korea, Republic of (South Korea) </option>
+                                        <option value="113">Kenya (Former British East Africa)</option>
+                                        <option value="111">Jordan(FormerTransjordan)</option>
+                                        <option value="110">Japan </option>
+                                        <option value="109">Jamaica </option>
+                                        <option value="108">Italy </option>
+                                        <option value="107">Israel </option>
+                                        <option value="106">Ireland </option>
+                                        <option value="105">Iraq </option>
+                                        <option value="104">Iran, Islamic Republic of</option>
+                                        <option value="102">India</option>
+                                        <option value="100">Hungary </option>
+                                        <option value="99">Hong Kong </option>
+                                        <option value="98">Honduras </option>
+                                        <option value="94">Guyana (Former British Guiana)</option>
+                                        <option value="86">Greece </option>
+                                        <option value="85">Great Britain (United Kingdom)</option>
+                                        <option value="82">Germany </option>
+                                        <option value="79">Gabon (Gabonese Republic)</option>
+                                        <option value="78">French Southern Territories and Antarctic Lands </option>
+                                        <option value="75">France </option>
+                                        <option value="74">Finland </option>
+                                        <option value="65">Egypt (Former United Arab Republic - with Syria)</option>
+                                        <option value="64">Ecuador </option>
+                                        <option value="59">Denmark </option>
+                                        <option value="47">Colombia </option>
+                                        <option value="44">China </option>
+                                        <option value="41">Central African Republic </option>
+                                        <option value="38">Canada </option>
+                                        <option value="30">Brazil </option>
+                                        <option value="25">Bhutan, Kingdom of</option>
+                                        <option value="21">Belgium </option>
+                                        <option value="18">Bangladesh (Former East Pakistan)</option>
+                                        <option value="14">Austria</option>
+                                        <option value="13">Australia</option>
+                                        <option value="11">Armenia</option>
+                                        <option value="10">Argentina </option>
+                                        <option value="8">Antarctica</option>
+                                        <option value="4">American Samoa</option>
+                                        <option value="3">Algeria </option>
+                                        <option value="1">Afghanistan </option>
+                                    </select>
+                                </div>
+                            </div><!-- col-3 -->
+                            <div class="col-lg-4">
+
+                                <span class="input-group-btn" style="margin-top: 29px;  float: left;">
+                                    <button class=" btn btn-secondary" type="button" onclick="AddressAdd();">Add</button>
+                                </span>
+                            </div>
+                            <div class="col-lg-12">
+                                <hr />
+                                <!-- list -->
+                                <div class="data-list" id="divAddSpan">
+                                    <ul id="ulAddSpan">
+                                       
+                                    </ul>
+                                </div>
+                                <!-- list -->
+                            </div>
+                        </div><!--row-->
+                    </div><!-- col-6 -->
+                    <!-- </div> -->
+                    <!--col-12-->
+
+
+
+
+
+
+                </div><!-- row -->
+                @Html.HiddenFor(m => m.Id, new { id = "userid" })
+                @Html.HiddenFor(m => m.UId, new { id = "uid" })
+                <hr />
+                <div class="form-layout-footer ">
+                    <div class="row">
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-9">
+                            <button class="btn btn-primary bd-0" id="btnsavecont" onclick="saveProfile();">Submit Profile</button>
+
+                            <button class="btn btn-primary bd-0" id="btnupdatecont" onclick="saveProfile();">Update Profile</button>
+
+                            <button class="btn btn-secondary bd-0">Cancel</button>
+                        </div>
+                    </div>
+                </div><!-- form-layout-footer -->
+            </div><!-- form-layout -->
+        </div><!-- section-wrapper -->
+
+
+    </div><!-- container -->
+
+</div>
+
+<script src="~/Scripts/Custom.js"></script>
+<script>
+    $(document).ready(function () {
+        BtnShowHide();
+        EditContact("Profile");
+    });
+
+
+
+    $(function () {
+        'use strict'
+
+        $('.form-layout .form-control').on('focusin', function () {
+            $(this).closest('.form-group').addClass('form-group-active');
+        });
+
+        $('.form-layout .form-control').on('focusout', function () {
+            $(this).closest('.form-group').removeClass('form-group-active');
+        });
+
+        // Select2
+        //$('.select2').select2({
+        //    minimumResultsForSearch: Infinity
+        //});
+
+        //$('#select2-a, #select2-b').select2({
+        //    minimumResultsForSearch: Infinity
+        //});
+
+        //$('#select2-a').on('select2:opening', function (e) {
+        //    $(this).closest('.form-group').addClass('form-group-active');
+        //});
+
+        //$('#select2-a').on('select2:closing', function (e) {
+        //    $(this).closest('.form-group').removeClass('form-group-active');
+        //});
+
+    });
+</script>

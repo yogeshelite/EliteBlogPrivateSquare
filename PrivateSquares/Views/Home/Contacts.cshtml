@@ -1,0 +1,200 @@
+﻿
+@{
+    /**/
+
+    ViewBag.Title = "Contacts";
+    Layout = "~/Views/Shared/_HeaderFooter.cshtml";
+}
+
+<div class="slim-mainpanel">
+    <div class="container">
+        <div class="manager-header">
+            <div class="slim-pageheader">
+                <ol class="breadcrumb slim-breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Contact Manager</li>
+                </ol>
+                <h6 class="slim-pagetitle">Contact Manager</h6>
+            </div><!-- slim-pageheader -->
+            <a id="contactNavicon" href="" class="contact-navicon"><i class="icon ion-navicon-round"></i></a>
+        </div><!-- manager-header -->
+
+        <div class="manager-wrapper">
+            <div class="manager-right" id="divcontactcontainer">
+                <div class="row row-sm" id="divContact">
+                    @*<div class="col-sm-6 col-lg-4">
+                            <div class="card-contact">
+                                <div class="tx-center">
+                                    <a href=""><img src="http://via.placeholder.com/500x500" class="card-img" alt=""></a>
+                                    <h5 class="mg-t-10 mg-b-5"><a href="" class="contact-name">Isidore Dilao</a></h5>
+                                    <p>Software Engineer</p>
+                                    <p class="contact-social">
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-google"></i></a>
+                                    </p>
+                                </div><!-- tx-center -->
+
+                                <p class="contact-item">
+                                    <span>Phone:</span>
+                                    <span>+1 012 3456 789</span>
+                                </p><!-- contact-item -->
+                                <p class="contact-item">
+                                    <span>Email:</span>
+                                    <a href="">person1@domain.com</a>
+                                </p><!-- contact-item -->
+                                <p class="contact-item">
+                                    <span>URL:</span>
+                                    <a href="">http://thmpxls.me</a>
+                                </p><!-- contact-item -->
+                            </div><!-- card -->
+                        </div><!-- col -->*@
+
+                </div><!-- row -->
+                <div id="divdatanotfound"></div>
+                <a href="" class="btn btn-light btn-block">Load more contacts</a>
+
+            </div><!-- manager-right -->
+            <div class="manager-left">
+                <a href="/Home/AddContact" name="btnaddedit" value="add" onclick="AddNewContact();" class="btnaddedit btn btn-contact-new">Add New</a>
+                <nav class="nav">
+                    <a name="AllContact" id="sideallcontact" onclick="getlist(name,0);" class="nav-link active">
+                        <span>All Contacts</span>
+                        <span id="countallcontact"></span>
+                    </a>
+                    <a name="Family" id="sidebarfamily" onclick="getlist(name,2);" class="nav-link">
+                        <span>Family</span>
+                        <span id="totalfamily"></span>
+                    </a>
+                    <a name="Friends" id="sidebarfriend" onclick="getlist(name,1);" class="nav-link">
+                        <span>Friends</span>
+                        <span id="totalfriends"></span>
+                    </a>
+                    <a name="Business" id="sidebarbusiness" onclick="getlist(name,3);" class="nav-link">
+                        <span>Co-workers</span>
+                        <span id="totalbusiness"></span>
+                    </a>
+                    @*<a href="" class="nav-link">
+                            <span>Favorites</span>
+                            <span>9</span>
+                        </a>*@
+                </nav>
+
+                <label class="section-label-sm mg-t-25">Location</label>
+                <nav class="nav">
+                    <a href="" class="nav-link">
+                        <span>San Francisco</span>
+                        <span>10</span>
+                    </a>
+                    <a href="" class="nav-link">
+                        <span>Los Angeles</span>
+                        <span>16</span>
+                    </a>
+                    <a href="" class="nav-link">
+                        <span>New York</span>
+                        <span>15</span>
+                    </a>
+                    <a href="" class="nav-link">
+                        <span>Las Vegas</span>
+                        <span>4</span>
+                    </a>
+                    <a href="" class="nav-link">
+                        <span>Sacramento</span>
+                        <span>4</span>
+                    </a>
+                </nav>
+
+                <label class="section-label-sm mg-t-25">Job Position</label>
+                <nav class="nav">
+                    <a href="" class="nav-link">
+                        <span>Software Engineer</span>
+                        <span>4</span>
+                    </a>
+                    <a href="" class="nav-link">
+                        <span>UI Designer</span>
+                        <span>6</span>
+                    </a>
+                    <a href="" class="nav-link">
+                        <span>Sales Representative</span>
+                        <span>5</span>
+                    </a>
+                    <a href="" class="nav-link">
+                        <span>Mechanical Engineer</span>
+                        <span>4</span>
+                    </a>
+                    <a href="" class="nav-link">
+                        <span>Nurse</span>
+                        <span>4</span>
+                    </a>
+                </nav>
+            </div><!-- manager-left -->
+        </div><!-- manager-wrapper -->
+    </div><!-- container -->
+</div>
+<script src="~/Scripts/Custom.js"></script>
+<script>
+    $(document).ready(function () {
+        getlistcount();
+        getlist("AllContact", 0);
+    });
+
+</script>
+
+
+
+<div class="modal fade" id="ChnageOwnerModal" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Change Owner</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body" style="height:300PX;width:420px;">
+                <div class="row" style="margin-top:50px">
+                    <input type="hidden" id="userID" class="form-control" />
+                    <div class="col-md-2 offset-2">User:</div>
+                    <div class="col-md-8"><label id="lblEmail" class="form-control"></label></div>
+                    <div class="col-md-2 offset-2">Password:</div>
+                    <div class="col-md-8"><input id="txtPassword" class="form-control" /></div>
+                    
+                    <div class="col-md-3 offset-3" style="margin-top:70px;"><input onclick="ChangeOwner();" type="button" value="Update"></div>
+                    <div class="col-md-3" style="margin-top:70px;"><input type="button" value="Close"></div>
+                </div>
+            </div>
+            @*<div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>*@
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="modal" id="deleteModal" role="dialog">
+    <!--modal pop up  2 start-->
+    <div class="modal-dialog re-padd">
+        <!-- Modal content-->
+        <div class="modal-content congrat-pp">
+            <div class="modal-header padd_congo">
+                <div class="congo_pp-main1" style="height:200px;">
+                    <input type="hidden" id="ContactId" value="" />
+                    <img src="~/Images/Fail.svg" />
+                    @*<h1>Sorry!</h1>*@
+
+                    <div style="margin-top:15px;">
+                        <p id="FailMessage">Do you want to Delete this Contact.</p>
+                    </div>
+                    <div class="butns_congo" style="margin-top:30px;">
+                        <a class="cncl_pp" data-dismiss="modal">No</a>
+                        <a data-dismiss="modal" onclick="DeleteContact()">Yes</a>
+                        @*<a class="view_butn Cursor" data-dismiss="modal">Yes</a>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

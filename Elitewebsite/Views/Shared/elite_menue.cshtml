@@ -1,0 +1,49 @@
+﻿<section class="menue_wrap">
+    <!--- elite_menue_wrap-->
+    <div class="work_got_an">
+        <!--cross image start-->
+        <a href="javascript:void(0);" class="cross_menu"><img src="~/Content/Images/cross_menue.png" alt="cross-image" /></a>
+        <!--cross image end-->
+        <div class="menu-middle">
+            <!--- menue contents section start-->
+            <div class="work_about">
+                <div class="work_about_txt">
+                    <ul>
+                        <li>@Html.ActionLink("About", "About", "home")</li>
+                        <li class="b_wrk"></li>
+                        <li>@Html.ActionLink("services", "services", "home")</li>
+                        <li class="b_wrk"></li>
+                        <li>@Html.ActionLink("Case Study", "CaseStudy", "home")</li>
+                        <li class="b_wrk"></li>
+                        <li>@Html.ActionLink("Chili", "Chili", "home")</li>
+                    </ul>
+                </div>
+                <div class="carrir_blog">
+                    <ul>
+                        <li>@Html.ActionLink("Careers", "Carrer", "home")</li>
+                        <li>@Html.ActionLink("Blogs", "Blog", "home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact_us", "home")</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--menue content section end-->
+            <!--got an idea section start-->
+            <div class="got_an_idea">
+                <div class="got_idea">
+                    <h2>Got an Idea?</h2>
+                    <p><a href="@Url.Action("Contact_Type","Home")">Let's Work Together<img src="~/Content/Images/rigt_arrow.png" class="cross-img" alt="right-arrow-image" /></a></p>
+                </div>
+                <div class="linked_in social-md">
+                    <ul>
+                        <li><a href="#">Linkedin</a></li>
+                        <li><a href="https://www.instagram.com/elitewebtechnologies/">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/elitewebtechnologies1/">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!---got an idea section end-->
+        </div>
+    </div>
+</section><!--- elite_menue_wrap-->

@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EWT_NearbyCartModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="EWT_NearbyCartEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="EWT_NearbyCartModel.Customer" />
+    <EntitySet Name="Vendors" EntityType="EWT_NearbyCartModel.Vendor" />
+    <EntitySet Name="CustomerRedeemPoints" EntityType="EWT_NearbyCartModel.CustomerRedeemPoint" />
+    <EntitySet Name="CustomerRewardPoints" EntityType="EWT_NearbyCartModel.CustomerRewardPoint" />
+    <EntitySet Name="Games" EntityType="EWT_NearbyCartModel.Game" />
+    <EntitySet Name="GamePoints" EntityType="EWT_NearbyCartModel.GamePoint" />
+    <EntitySet Name="GameVendorOffers" EntityType="EWT_NearbyCartModel.GameVendorOffer" />
+    <AssociationSet Name="FK_CustomerRewardPoints_Customer" Association="EWT_NearbyCartModel.FK_CustomerRewardPoints_Customer">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="CustomerRewardPoint" EntitySet="CustomerRewardPoints" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GamePoint_Customer" Association="EWT_NearbyCartModel.FK_GamePoint_Customer">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="GamePoint" EntitySet="GamePoints" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GameUserRedeemPoint_Customer" Association="EWT_NearbyCartModel.FK_GameUserRedeemPoint_Customer">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="CustomerRedeemPoint" EntitySet="CustomerRedeemPoints" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GameVendorOffer_GameVendorOffer" Association="EWT_NearbyCartModel.FK_GameVendorOffer_GameVendorOffer">
+      <End Role="Vendor" EntitySet="Vendors" />
+      <End Role="GameVendorOffer" EntitySet="GameVendorOffers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GameUserRedeemPoint_GameVendorOffer" Association="EWT_NearbyCartModel.FK_GameUserRedeemPoint_GameVendorOffer">
+      <End Role="GameVendorOffer" EntitySet="GameVendorOffers" />
+      <End Role="CustomerRedeemPoint" EntitySet="CustomerRedeemPoints" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GamePoint_Game" Association="EWT_NearbyCartModel.FK_GamePoint_Game">
+      <End Role="Game" EntitySet="Games" />
+      <End Role="GamePoint" EntitySet="GamePoints" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerGuid" Type="Guid" Nullable="false" />
+    <Property Name="Username" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="EmailToRevalidate" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="AdminComment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsTaxExempt" Type="Boolean" Nullable="false" />
+    <Property Name="AffiliateId" Type="Int32" Nullable="false" />
+    <Property Name="VendorId" Type="Int32" Nullable="false" />
+    <Property Name="HasShoppingCartItems" Type="Boolean" Nullable="false" />
+    <Property Name="RequireReLogin" Type="Boolean" Nullable="false" />
+    <Property Name="FailedLoginAttempts" Type="Int32" Nullable="false" />
+    <Property Name="CannotLoginUntilDateUtc" Type="DateTime" Precision="3" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <Property Name="Deleted" Type="Boolean" Nullable="false" />
+    <Property Name="IsSystemAccount" Type="Boolean" Nullable="false" />
+    <Property Name="SystemName" Type="String" MaxLength="400" FixedLength="false" Unicode="true" />
+    <Property Name="LastIpAddress" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedOnUtc" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="LastLoginDateUtc" Type="DateTime" Precision="3" />
+    <Property Name="LastActivityDateUtc" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="RegisteredInStoreId" Type="Int32" Nullable="false" />
+    <Property Name="BillingAddress_Id" Type="Int32" />
+    <Property Name="ShippingAddress_Id" Type="Int32" />
+    <NavigationProperty Name="CustomerRewardPoints" Relationship="EWT_NearbyCartModel.FK_CustomerRewardPoints_Customer" FromRole="Customer" ToRole="CustomerRewardPoint" />
+    <NavigationProperty Name="GamePoints" Relationship="EWT_NearbyCartModel.FK_GamePoint_Customer" FromRole="Customer" ToRole="GamePoint" />
+    <NavigationProperty Name="CustomerRedeemPoints" Relationship="EWT_NearbyCartModel.FK_GameUserRedeemPoint_Customer" FromRole="Customer" ToRole="CustomerRedeemPoint" />
+  </EntityType>
+  <EntityType Name="Vendor">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="400" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="400" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PictureId" Type="Int32" Nullable="false" />
+    <Property Name="AddressId" Type="Int32" Nullable="false" />
+    <Property Name="AdminComment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <Property Name="Deleted" Type="Boolean" Nullable="false" />
+    <Property Name="DisplayOrder" Type="Int32" Nullable="false" />
+    <Property Name="MetaKeywords" Type="String" MaxLength="400" FixedLength="false" Unicode="true" />
+    <Property Name="MetaDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MetaTitle" Type="String" MaxLength="400" FixedLength="false" Unicode="true" />
+    <Property Name="PageSize" Type="Int32" Nullable="false" />
+    <Property Name="AllowCustomersToSelectPageSize" Type="Boolean" Nullable="false" />
+    <Property Name="PageSizeOptions" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="GameVendorOffers" Relationship="EWT_NearbyCartModel.FK_GameVendorOffer_GameVendorOffer" FromRole="Vendor" ToRole="GameVendorOffer" />
+  </EntityType>
+  <EntityType Name="CustomerRedeemPoint">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PointRedeem" Type="Int32" />
+    <Property Name="OfferId" Type="Int32" />
+    <Property Name="CustomerId" Type="Int32" />
+    <Property Name="Promocode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Purchased" Type="Boolean" />
+    <Property Name="PurchasedDate" Type="DateTime" Precision="3" />
+    <Property Name="RedeemDate" Type="DateTime" Precision="3" />
+    <Property Name="PromoCodeExpiredDate" Type="DateTime" Precision="3" />
+    <Property Name="Cancelled" Type="Boolean" />
+    <Property Name="CancellationDate" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Customer" Relationship="EWT_NearbyCartModel.FK_GameUserRedeemPoint_Customer" FromRole="CustomerRedeemPoint" ToRole="Customer" />
+    <NavigationProperty Name="GameVendorOffer" Relationship="EWT_NearbyCartModel.FK_GameUserRedeemPoint_GameVendorOffer" FromRole="CustomerRedeemPoint" ToRole="GameVendorOffer" />
+  </EntityType>
+  <EntityType Name="CustomerRewardPoint">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerId" Type="Int32" Nullable="false" />
+    <Property Name="StoreId" Type="Int32" Nullable="false" />
+    <Property Name="RewardPoint" Type="Int32" Nullable="false" />
+    <Property Name="BalancePoint" Type="Int32" />
+    <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedOnUtc" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Customer" Relationship="EWT_NearbyCartModel.FK_CustomerRewardPoints_Customer" FromRole="CustomerRewardPoint" ToRole="Customer" />
+  </EntityType>
+  <EntityType Name="Game">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GameName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="GamePoints" Relationship="EWT_NearbyCartModel.FK_GamePoint_Game" FromRole="Game" ToRole="GamePoint" />
+  </EntityType>
+  <EntityType Name="GamePoint">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GameId" Type="Int32" />
+    <Property Name="CustomerId" Type="Int32" />
+    <Property Name="Points" Type="Int32" />
+    <Property Name="PlayDate" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Customer" Relationship="EWT_NearbyCartModel.FK_GamePoint_Customer" FromRole="GamePoint" ToRole="Customer" />
+    <NavigationProperty Name="Game" Relationship="EWT_NearbyCartModel.FK_GamePoint_Game" FromRole="GamePoint" ToRole="Game" />
+  </EntityType>
+  <EntityType Name="GameVendorOffer">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VendorId" Type="Int32" Nullable="false" />
+    <Property Name="Offer" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="PointsRequired" Type="Int32" />
+    <Property Name="StartDate" Type="DateTime" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Precision="3" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="IsPublish" Type="Boolean" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="AddressLocation" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Vendor" Relationship="EWT_NearbyCartModel.FK_GameVendorOffer_GameVendorOffer" FromRole="GameVendorOffer" ToRole="Vendor" />
+    <NavigationProperty Name="CustomerRedeemPoints" Relationship="EWT_NearbyCartModel.FK_GameUserRedeemPoint_GameVendorOffer" FromRole="GameVendorOffer" ToRole="CustomerRedeemPoint" />
+  </EntityType>
+  <Association Name="FK_CustomerRewardPoints_Customer">
+    <End Type="EWT_NearbyCartModel.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="EWT_NearbyCartModel.CustomerRewardPoint" Role="CustomerRewardPoint" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CustomerRewardPoint">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GamePoint_Customer">
+    <End Type="EWT_NearbyCartModel.Customer" Role="Customer" Multiplicity="0..1" />
+    <End Type="EWT_NearbyCartModel.GamePoint" Role="GamePoint" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GamePoint">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GameUserRedeemPoint_Customer">
+    <End Type="EWT_NearbyCartModel.Customer" Role="Customer" Multiplicity="0..1" />
+    <End Type="EWT_NearbyCartModel.CustomerRedeemPoint" Role="CustomerRedeemPoint" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CustomerRedeemPoint">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GameVendorOffer_GameVendorOffer">
+    <End Type="EWT_NearbyCartModel.Vendor" Role="Vendor" Multiplicity="1" />
+    <End Type="EWT_NearbyCartModel.GameVendorOffer" Role="GameVendorOffer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vendor">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GameVendorOffer">
+        <PropertyRef Name="VendorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GameUserRedeemPoint_GameVendorOffer">
+    <End Type="EWT_NearbyCartModel.GameVendorOffer" Role="GameVendorOffer" Multiplicity="0..1" />
+    <End Type="EWT_NearbyCartModel.CustomerRedeemPoint" Role="CustomerRedeemPoint" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GameVendorOffer">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CustomerRedeemPoint">
+        <PropertyRef Name="OfferId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GamePoint_Game">
+    <End Type="EWT_NearbyCartModel.Game" Role="Game" Multiplicity="0..1" />
+    <End Type="EWT_NearbyCartModel.GamePoint" Role="GamePoint" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Game">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="GamePoint">
+        <PropertyRef Name="GameId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

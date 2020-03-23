@@ -1,0 +1,204 @@
+﻿
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PrivateSquares</title>
+    <link href="~/Content/slim.css" rel="stylesheet" />
+
+    <!-- Twitter -->
+    @*<meta name="twitter:site" content="@themepixels">
+        <meta name="twitter:creator" content="@themepixels">*@
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Slim">
+    <meta name="twitter:description" content="Premium Quality and Responsive UI for Dashboard.">
+    <meta name="twitter:image" content="http://themepixels.me/slim/img/slim-social.png">
+
+    <!-- Facebook -->
+    <meta property="og:url" content="http://themepixels.me/slim">
+    <meta property="og:title" content="Slim">
+    <meta property="og:description" content="Premium Quality and Responsive UI for Dashboard.">
+
+    <meta property="og:image" content="http://themepixels.me/slim/img/slim-social.png">
+    <meta property="og:image:secure_url" content="http://themepixels.me/slim/img/slim-social.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="600">
+
+    <!-- Meta -->
+    <meta name="description" content="Premium Quality and Responsive UI for Dashboard.">
+    <meta name="author" content="ThemePixels">
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <!-- Vendor css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+    <script src="~/Scripts/Custom.js"></script>
+    <script src="~/Scripts/Common.js"></script>
+</head>
+<body>
+
+    @{
+        var id = @Request.Cookies["Login"].Value;
+    }
+
+    <div>
+
+        <div class="slim-header">
+            <div class="container">
+                <div class="slim-header-left">
+                    <h2 class="slim-logo"><a href="/Home/contacts"><img src="~/Images/logo.png" /></a></h2>
+
+                    <div class="search-box">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <button class="btn btn-primary"><i class="fa fa-search"></i></button>
+                    </div><!-- search-box -->
+                </div><!-- slim-header-left -->
+                <div class="slim-header-right">
+                    <div class="dropdown dropdown-b">
+                        <a href="" class="header-notification" data-toggle="dropdown">
+                            <i class="icon ion-ios-bell-outline"></i>
+                            <span class="indicator"></span>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-menu-header">
+                                <h6 class="dropdown-menu-title">Notifications</h6>
+                                <div>
+                                    <a href="">Mark All as Read</a>
+                                    <a href="">Settings</a>
+                                </div>
+                            </div><!-- dropdown-menu-header -->
+                            <div class="dropdown-list">
+                                <!-- loop starts here -->
+                                <a href="" class="dropdown-link">
+                                    <div class="media">
+                                        <img src="http://via.placeholder.com/500x500" alt="">
+                                        <div class="media-body">
+                                            <p><strong>Suzzeth Bungaos</strong> tagged you and 18 others in a post.</p>
+                                            <span>October 03, 2017 8:45am</span>
+                                        </div>
+                                    </div><!-- media -->
+                                </a>
+                                <!-- loop ends here -->
+                                <a href="" class="dropdown-link">
+                                    <div class="media">
+                                        <img src="http://via.placeholder.com/500x500" alt="">
+                                        <div class="media-body">
+                                            <p><strong>Mellisa Brown</strong> appreciated your work <strong>The Social Network</strong></p>
+                                            <span>October 02, 2017 12:44am</span>
+                                        </div>
+                                    </div><!-- media -->
+                                </a>
+                                <a href="" class="dropdown-link read">
+                                    <div class="media">
+                                        <img src="http://via.placeholder.com/500x500" alt="">
+                                        <div class="media-body">
+                                            <p>20+ new items added are for sale in your <strong>Sale Group</strong></p>
+                                            <span>October 01, 2017 10:20pm</span>
+                                        </div>
+                                    </div><!-- media -->
+                                </a>
+                                <a href="" class="dropdown-link read">
+                                    <div class="media">
+                                        <img src="http://via.placeholder.com/500x500" alt="">
+                                        <div class="media-body">
+                                            <p><strong>Julius Erving</strong> wants to connect with you on your conversation with <strong>Ronnie Mara</strong></p>
+                                            <span>October 01, 2017 6:08pm</span>
+                                        </div>
+                                    </div><!-- media -->
+                                </a>
+                                <div class="dropdown-list-footer">
+                                    <a href="page-notifications.html"><i class="fa fa-angle-down"></i> Show All Notifications</a>
+                                </div>
+                            </div><!-- dropdown-list -->
+                        </div><!-- dropdown-menu-right -->
+                    </div><!-- dropdown -->
+                    <div class="dropdown dropdown-c">
+                        <a class="logged-user" data-toggle="dropdown">
+                            <div href="/Home/myprofile" id="profileimg">
+                                <img id="profileimg">
+                            </div>
+
+                            <span id="lblprofilename"></span>
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <nav class="nav">
+                                <a href="page-profile.html" class="nav-link"><i class="icon ion-person"></i> View Profile</a>
+                                <a href="/home/MyProfile/@id" class="nav-link"><i class="icon ion-compose"></i> Edit Profile</a>
+                                <a href="page-activity.html" class="nav-link"><i class="icon ion-ios-bolt"></i> Activity Log</a>
+                                <a href="/Home/AccountSetting" class="nav-link"><i class="icon ion-ios-gear"></i> Account Settings</a>
+                                @Html.ActionLink("Sign Out", "Logout", "Home", new { @class = "nav-link", @style = "margin-left:25px;" })
+
+                                @*<a href="page-signin.html" class="nav-link"><i class="icon ion-forward"></i> Sign Out</a>*@
+                            </nav>
+                        </div><!-- dropdown-menu -->
+                    </div><!-- dropdown -->
+                </div><!-- dropdown -->
+            </div><!-- header-right -->
+        </div><!-- container -->
+    </div><!-- slim-header -->
+
+    <div class="slim-navbar">
+        <div class="container">
+            <ul class="nav">
+                <li class="nav-item active" id="friend">
+                    <a name="Friends" class="nav-link" onclick="getlist(name,1);">
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li class="nav-item" id="family">
+                    <a class="nav-link" name="Family" onclick="getlist(name,2);">
+                        <span>Family</span>
+                    </a>
+                </li>
+                <li class="nav-item" id="business">
+                    <a class="nav-link" name="Business" onclick="getlist(name,3);">
+                        <span>Business</span>
+                    </a>
+                </li>
+                <li class="nav-item" id="hotlist">
+                    <a class="nav-link" name="HotList" onclick="getlist(name,4);">
+                        <span>Hot List</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <span>Group Name</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <span>Group Name</span>
+                    </a>
+                </li>
+            </ul>
+        </div><!-- container -->
+    </div><!-- slim-navbar -->
+
+    @RenderBody()
+
+    <div class="slim-footer">
+        <div class="container">
+            <p>Copyright 2020 &copy; All Rights Reserved. PrivateSquares</p>
+
+        </div><!-- container -->
+    </div><!-- slim-footer -->
+
+    <script>
+        //Profile();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+﻿
+@{
+    ViewBag.Title = "Career_Detail";
+    Layout = "~/Views/Shared/_MobileLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @*<link href="style.css" rel="stylesheet">*@
+    <link href="~/Content/Mobile/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    @*<link href="http://192.168.1.150:8080/EliteSite2k19/24_sep_keshav/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">*@
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap" rel="stylesheet"><!---google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap" rel="stylesheet"><!---google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet"><!---google fonts-->
+    @* <link href="dist/aos.css" rel="stylesheet">*@
+    <link href="~/Content/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+    @Html.Partial("~/Views/Shared/Mobile_menu.cshtml")
+    @Html.Partial("~/Views/Shared/mobile_header.cshtml")
+    <main class="main-padding">
+        <!--main paddng start-->
+        <!---blog banner  start-->
+        <article class="user_ex aos-item" data-aos="fade-up">
+            <h1>User Experience Designer</h1>
+        </article>   <!-- blog-baner end -->
+        <!----  icon section start here    --->
+
+        <div class="location_chd">
+            <a href="#"><img src="/Content/Mobile/images/447031.png" width="12" class="aos-item" data-aos="fade-left" />Chandigarh</a>
+        </div>
+
+
+        <!----  icon section end here    --->
+        <!---  Job Introduction  section start here --->
+        <div class="Job_Introduction aos-item" data-aos="fade-up">
+            <img src="/Content/Mobile/images/rkh8ecf7.png" width="100%" />
+        </div>
+
+        <div class="look_btn">
+            <h1 class="aos-item" data-aos="fade-up">Job Introduction</h1>
+            <p class="aos-item" data-aos="fade-up">We are looking for freethinkers who visualize what others don’t and are comfortable outside the box. People who empathize with users and simplify solutions like a piece of cake! You should be excited about research and analysis and also open-minded with an unquenchable thirst for new approaches and solutions to real-world problems faced by a common man. You should analyse tasks, user journeys and provide workflows, interactions and wireframes.</p>
+            <a href="#" class="aos-item" data-aos="fade-up">APPLY</a>
+        </div>
+
+        <div class="look_btn ">
+            <h1 class="aos-item" data-aos="fade-up">Your Mission</h1>
+            <p class="aos-item" data-aos="fade-up">Think, argue, analyse, strategize and iterate. Open-minded for suggestions and criticism with an unbreakable spirit.</p><p class="aos-item" data-aos="fade-up"> Analyse ‘what’ and not “how” the user does it.</p><p class="aos-item" data-aos="fade-up"> Create wireframe specifications with interaction flows.</p><p> In-depth understanding of clients and users.</p><p class="aos-item" data-aos="fade-up"> Apply strategic design thinking to real-world problems.</p><p class="aos-item" data-aos="fade-up">   An eye for usability, minimalism and simplicity.</p>
+        </div>
+
+        <div class="look_btn mb_0">
+            <h1 class="aos-item" data-aos="fade-up">Ideally, you should have</h1>
+            <p class="aos-item" data-aos="fade-up">Think, argue, analyse, strategize and iterate. Open-minded for suggestions and criticism with an unbreakable spirit.</p><p class="aos-item" data-aos="fade-up"> Analyse ‘what’ and not “how” the user does it.</p><p> Create wireframe specifications with interaction flows.</p><p class="aos-item" data-aos="fade-up"> In-depth understanding of clients and users.</p><p> Apply strategic design thinking to real-world problems.</p><p class="aos-item" data-aos="fade-up">   An eye for usability, minimalism and simplicity.</p>
+        </div>
+
+
+
+
+
+
+        <!---  Job Introduction  section end here --->
+    </main>
+    @Html.Partial("~/Views/Shared/mobile_Footer.cshtml")
+    @*<?php include("common/footer.php"); ?>*@ <!---footer php file ----->
+    @*<script src="js/custom.js" type="text/javascript"></script>*@
+    <script src="~/../../Content/Mobile/js/custom.js"></script>
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $(".imgdown").on("click", function () {
+                $(this).parent().find(".pcontent").removeClass("hide");
+                $(this).parent().find(".pcontent").addClass("display_content");
+                $(this).parent().find(".imgup").addClass("display_content");
+                $(this).parent().find(".imgup").removeClass("hide");
+                $(this).addClass("hide");
+            });
+            $(".imgup").on("click", function () {
+                $(this).parent().find(".pcontent").removeClass("display_content");
+                $(this).parent().find(".pcontent").addClass("hide");
+                $(this).parent().find(".imgdown").addClass("display_content");
+                $(this).parent().find(".imgdown").removeClass("hide");
+                $(this).addClass("hide");
+            });
+        });
+    </script>
+    @*<script src="dist/aos.js"></script>*@
+    <script src="~/../../Content/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Elite Web Technologies</title>
+    <!-- Bootstrap core CSS -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/css/style.css" rel="stylesheet">
+    <link href="~/Content/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/dist/aos.css" rel="stylesheet" />
+    @*<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="dist/aos.css" rel="stylesheet">*@
+
+
+</head>
+
+<body>
+
+    <div class="cursor"></div>
+    <div class="elite_screen  animated"></div>
+
+    @Html.Partial("~/Views/Shared/elite_menue.cshtml")
+
+    <div class="section_wrapper">
+        <div>
+            <div>
+                <!-- Header Section starts Here -->
+                @Html.Partial("~/Views/Shared/header.cshtml")
+                <!-- Header Section Ends Here -->
+                <div class="clearfix"></div>
+            </div>
+            <!--we are section end here -->
+        </div>
+            @RenderBody()
+
+        <div>
+
+            @Html.Partial("~/Views/Shared/footer_bottom.cshtml")
+        </div>
+    </div>
+    <!--client start-->
+    <div class="clearfix"></div>
+    <!-- /.row -->
+    <!-------------------- Footer section start------------------------->
+    <!-- /.container -->
+    <!--<script src="plugin/owl/assets/vendors/jquery.mousewheel.min.js"></script>-->
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+    @*<script src="js/case-study.js" type="text/javascript"></script>*@
+    <script src="~/Scripts/case-study.js"></script>
+    @*<script src="dist/aos.js"></script>*@
+    <script src="~/Content/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PrivateSquaresModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PrivateSquaresEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Addresses" EntityType="PrivateSquaresModel.Address" />
+    <EntitySet Name="BlogTables" EntityType="PrivateSquaresModel.BlogTable" />
+    <EntitySet Name="Categories" EntityType="PrivateSquaresModel.Category" />
+    <EntitySet Name="Profiles" EntityType="PrivateSquaresModel.Profile" />
+    <EntitySet Name="Registers" EntityType="PrivateSquaresModel.Register" />
+    <AssociationSet Name="FK_Address_Profile" Association="PrivateSquaresModel.FK_Address_Profile">
+      <End Role="Profile" EntitySet="Profiles" />
+      <End Role="Address" EntitySet="Addresses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Profile_Category" Association="PrivateSquaresModel.FK_Profile_Category">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Profile" EntitySet="Profiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Profile_Register" Association="PrivateSquaresModel.FK_Profile_Register">
+      <End Role="Register" EntitySet="Registers" />
+      <End Role="Profile" EntitySet="Profiles" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Address">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProfileId" Type="Int64" />
+    <Property Name="Street" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="State" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Profile" Relationship="PrivateSquaresModel.FK_Address_Profile" FromRole="Address" ToRole="Profile" />
+  </EntityType>
+  <EntityType Name="BlogTable">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Blog" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Profiles" Relationship="PrivateSquaresModel.FK_Profile_Category" FromRole="Category" ToRole="Profile" />
+  </EntityType>
+  <EntityType Name="Profile">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int64" />
+    <Property Name="OwnerId" Type="Int64" />
+    <Property Name="FirstName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="Company" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="JobTitle" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNo" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="GroupId" Type="Int64" />
+    <Property Name="Note" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Addresses" Relationship="PrivateSquaresModel.FK_Address_Profile" FromRole="Profile" ToRole="Address" />
+    <NavigationProperty Name="Category" Relationship="PrivateSquaresModel.FK_Profile_Category" FromRole="Profile" ToRole="Category" />
+    <NavigationProperty Name="Register" Relationship="PrivateSquaresModel.FK_Profile_Register" FromRole="Profile" ToRole="Register" />
+  </EntityType>
+  <EntityType Name="Register">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Email" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Username" Type="String" MaxLength="8" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Profiles" Relationship="PrivateSquaresModel.FK_Profile_Register" FromRole="Register" ToRole="Profile" />
+  </EntityType>
+  <Association Name="FK_Address_Profile">
+    <End Type="PrivateSquaresModel.Profile" Role="Profile" Multiplicity="0..1" />
+    <End Type="PrivateSquaresModel.Address" Role="Address" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Profile">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Address">
+        <PropertyRef Name="ProfileId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Profile_Category">
+    <End Type="PrivateSquaresModel.Category" Role="Category" Multiplicity="0..1" />
+    <End Type="PrivateSquaresModel.Profile" Role="Profile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Profile">
+        <PropertyRef Name="GroupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Profile_Register">
+    <End Type="PrivateSquaresModel.Register" Role="Register" Multiplicity="0..1" />
+    <End Type="PrivateSquaresModel.Profile" Role="Profile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Register">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Profile">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

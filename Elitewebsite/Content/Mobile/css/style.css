@@ -1,0 +1,1012 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.elite-header {
+    width: 100%;
+    display: block;
+    float: left;
+
+   
+  
+}
+.container{
+    max-width:321px;
+    float:left;
+}
+.header-left {
+    float: left;
+}
+.header-right {
+    float: right;
+    margin-top: 10px;
+}
+.elite-header{padding:13px 20px 0px;}
+.lets-talk{
+    font-size: 14px;
+    font-family: karla;
+    line-height: 26px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #212121;
+    opacity: 0.87;
+    margin-right: 10px;
+}
+.we-are{margin-top: 135px;
+    display: block;
+    float: left;
+    margin-bottom: 135px;}
+.we-are p{font-family:karla;font-size:20px;line-height:23px;color:#000; opacity:0.54;}
+.we_are_wrapper{display: block;float: left;width: 100%;}
+.we-are a {font-size:31px;font-weight:bold;font-family:Libre Baskerville;color:#000;line-height:60px;text-decoration:underline;}
+
+.company-images{float: left;
+    display: block;
+    width: 100%;}
+.company-images p{
+    
+    float: left;
+    display: block;
+    font-family: karla;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    opacity: 0.70;
+    margin-bottom: 27px;
+}
+.company-images ul{list-style-type:none;}
+.mr-co-img{margin-right: 68px;margin-bottom: 53px;}
+.com-img-sec{width:100%; display:block; float:left;}
+.company-images li{    margin-bottom: 54px;}
+.company-images a{    float: left;}
+.view-text{font-family:karla; font-weight:bold;font-size:18px;line-height:20px;text-decoration: none;color:#EB3B2E;}
+
+
+.jans-trading{width: 100%;float: left;display: block;margin-right: 30px;}
+.mt-tradeship{margin-top:58px;}
+.jt-text1 p{font-family:karla;font-weight:bold;font-size:20px;line-height:24px;color:#000;width:335px;}
+.span-trade{font-family:karla;font-size:16px;line-height:24px;color:#6a6a6a;}
+.jt-img img{margin-bottom:24px;margin-top:19px;}
+.jt-text2 p{font-family:libre; font-weight:bold; font-size:30px;line-height:40px;color:#000; opacity:0.87;}
+.jt-text2{width: 100%;float: left;display: block;}
+.jt-text2 img  {float: left;padding-bottom: 15px;}
+.main_scroll_div{width:100%;float:left;display:flex;overflow-x: scroll;}
+
+
+
+.andy-text1 p{font-family: karla; font-size: 18px;line-height:24px;color:#000;opacity:0.70; margin-bottom:24px;margin-top: 40px;}
+.andy-text1{width:100%;float: left; display: block;    margin-bottom: 32px;}
+.jt-client-img img{margin-right: 16px;}
+    .radius-img{border: 1px solid red;border-radius: 50%;padding: 3px;}
+    .player-button{    position: absolute;bottom: 50%;left: 0;right: 0;margin: 0 auto;}
+    .client-img-opa{opacity: 0.7;}
+    .jtc-client-img{position: relative; width: 100%; float: left;display: block;}
+    .jtc-client-img p{font-family:karla; font-size:18px;line-height:15px;color:#fff;position:absolute;bottom: -9px;left: 12px;}
+    .ceo-jtc{font-family:karla; font-size:12px;line-height:15px;color:#A4A4A4;}
+    .andy-text2{width: 100%;float: left;display: block; position: relative;margin-top: 47px;margin-bottom: 76px;z-index:300;}
+    .andy-text2 p{margin: 0px;}
+    .left-comma{position: absolute;float: left;top: -21px;z-index: -4;}
+    .right-comma{position: absolute;z-index: -2;}
+
+
+    .we-belive1{    width: 100%; float: left;display: block; height: 1027px;background-color:blue;position: relative; z-index: 4;}
+
+    .we-belive2{width:95%;position: absolute;right: 0px;background-color: #FFFFFF}
+    .user-exp{background-color:#f9f9f9;height:957px;}
+    .market-place1{padding: 0 20px;float: left; width: 100%;display: block;margin-top: 30px;}
+    .market-place1 img{float:left; margin-right:8px;}
+
+
+    .we-belive-main{width:100%;float:left;display:block;background-color:#F9F9F9;height:auto; position: relative;margin-bottom: 200px;}
+    .purple-main{width:100%;float:left;display:block;background-color:#5610D2;height:1215px;}
+.we-belive-text p{font-family:karla; margin:0 auto;font-size: 16px;font-weight: bold;line-height: 22px;color: #ffffff;position: absolute;margin-top: 36px; margin-bottom: 41px;padding:0px 20px 0px 20px;top: 0px;}
+.we-belive2-main{width:96%;float:right;background:#fff;    position: absolute;right: 0px;top: 141px;}
+.mp-text h4{font-family: karla; font-size:18px;font-weight:bold;color:#000;    margin-top: 0px;}
+.mp-text p{font-family: karla; font-size:16px;line-height:22px;color:#000;}
+.mp-text h5{font-family: karla; font-size:16px;font-weight:bold;color:#000;opacity:0.50;}
+.mp-text{width: 80%;float: left;}
+.mb-mptext{margin-bottom: 27px;}
+.mb-buis{margin-bottom:26px;}
+.we-belive-text{width:100%;float:left;display: block;}
+
+
+
+
+    .we-write-1{width: 100%;float: left;display:block;position: relative;    bottom: 0;margin-bottom: 40px;top: 238px}
+    .we-write-2{padding: 0px 20px;    width: 100%;float: left;display: block;}
+    .we-write-text{margin-bottom: 20px;}
+    .we-write-text p{font-family:karla;font-size:18px;color:#000000; opacity:0.70;line-height: 24px;}
+    .exper-main{width:100%; float: left;height: auto; display: block; background: #F2F2F2;    margin-bottom: 40px;border-radius:4px;margin-right: 20px;}
+    .buis-idea-1{padding: 0px 20px;    width: 100%;float: left;display: block;margin-top: 25px;margin-bottom: 12px;}
+    .buis-idea-1 p{font-family:karla;font-size:16px;color:#22A457;}
+    .buis-idea-1 h4{font-family:libre; font-weight:bold;font-size:18px;color:#000000; opacity:0.84;width: 229px;}
+    .buis-idea-2{padding: 20px 20px;}
+    .buis-idea-2 a{font-family: karla;font-size:16px;color:#EB4134;text-decoration:none;}
+    .buis-idea-2 p{font-family: karla;font-size:16px;color:#000;opacity:0.50;}
+
+
+    .got-project{width: 100%;display: block;float: left;background: #FFE8E8;height: 275px;}
+    .pad-got-prjct{padding:64px 20px;}
+    .project-head h1{font-family:libre;font-size:30px;color:#000;font-weight:bold;}
+    .project-head p{font-family:karla;font-size:18px;color:#000;opacity:0.50;font-weight:bold;}
+    .project-head a{    font-family: "Poppins", sans-serif;font-size: 18px;line-height: 50px;background-color: #EB3B2E;display: block;text-align: center;font-weight: normal;color: #ffffff;width: 182px;height: 50px;}
+     
+    .footer-wrp{width:100%;float:left;display:block;padding:0 20px;margin-top: 67px;}
+    .social-left{float:left;display:block;}
+    .social-left ul{list-style-type:none;}
+    .social-left li a{color:black;}
+    .social-left li{font-size: 16px;line-height: 45px; font-family:karla;color:#000;text-decoration:underline;}
+    .span-social{float: right;}
+    .social-right{float:right;display:block;}
+    .social-right ul{list-style-type:none;}
+    .social-right li{font-size: 16px;line-height: 40px; font-family:karla;color:black;text-decoration:underline;font-weight:bold;}
+    .social-right li a{color:black;}
+
+
+    .copyright{width: 100%;float: left;display: block; margin: 0 auto; text-align: center;}
+    .copyright p{font-size: 16px;line-height: 26px; font-family:karla;color:#000;}
+
+
+
+    
+    .elite_footer { display: block; width: 100%;margin-bottom:50px;background: #FFFFFF; }
+
+    .elite_footer ul{list-style-type: none;display: block; width: 100%;}
+
+
+
+    .elite_footer li p{font-size:14px;color: #141414; line-height:20px;}
+    .elite_footer li h1{font-size:20px;color: #000000;font-weight: bold;font-family: "Karla", sans-serif;margin-top:0px;margin-bottom: 11px;}
+    .elite_footer h3{font-size:16px;color: #727272;font-family: "Karla", sans-serif;margin-top:0px;margin-bottom: 13px;}
+    .elite_footer a{color: #727272;}
+
+    .elite_footer li img {float: right;font-size: 15px;position: relative;bottom: 30px;width: 15px;}
+    .border_btm{width: 100%; opacity: 0.2;height: 1px;margin-bottom: 14px;margin-top: 14px;background: #000000;}
+
+
+    /**************************************** about us page mobile view css start ***************************************/
+    .main-padding{width: 100%; float: left;display: block; padding: 0px 20px;}
+    .not-just-an{width:100%; float:left;display:block;margin-top: 38px;}
+    .not-just-an h5{font-family:Libre Baskerville;font-weight:bold;font-size:30px;line-height:40px;}
+      
+    .main-below-img{width:100%;float:left;display:block; margin-top:46px;}
+    .hdng-below-img1{float:left;display:block;margin-bottom:5px;}
+    .hdng-below-img2{float:left;display:block;}
+    .img2_pulling{margin-right:5px;}
+    .img1-pullng{margin-right:5px; float:left;display:block;}
+    
+   
+
+    .what-we-do{width:100%;float:left;display:block; margin-top:55px;}
+    .explore-sr h5{font-size: 47px;font-family: "Poppins", sans-serif;display: block; margin-right: 36px; -webkit-text-stroke: 2px #000000; color: #ffffff;font-weight: bold; width: 47px;}
+    .explore-text h4{font-family:Libre Baskerville;font-weight:bold;font-size:20px; color:#000;}
+    .explore-text p{font-family:Karla;font-size:16px; color:#616161;line-height:24px;}
+    .explore-text{border-bottom:1px solid rgb(226, 226, 226);margin-bottom:10px;}
+
+    .emp-section{width:100%;float:left;display:block;background-color:#000;height:auto;padding: 0 20px;margin-bottom: 0;}
+    .emp-scn-text{width:100%;float:left;display:block;padding-top: 63px;}
+	.emp-scn-img{width:100%;float:left;display:block;}
+    .emp-scn-text p{font-family:Karla;font-size:16px; color:#fff;opacity:0.87;line-height:24px;}
+    .emp-scn-img ul{list-style-type: none;}
+
+    .got-project-about{width: 100%;display: block;float: left;background: #FFE8E8;height: 275px;}
+    .pad-got-prjct-about{padding:64px 20px;}
+    .project-head-about h1{font-family:libre;font-size:30px;color:#000;font-weight:bold;}
+    .project-head-about p{font-family:karla;font-size:18px;color:#000;opacity:0.50;font-weight:bold;}
+    .project-head-about a{    font-family: "Poppins", sans-serif;font-size: 18px;line-height: 50px;background-color: #EB3B2E;display: block;text-align: center;font-weight: normal;color: #ffffff;width: 182px;height: 50px;}
+
+
+.thumb span {position: absolute;border:1px solid #0000;width:269px;height:269px;border-radius:50%;background-color: #ffff;opacity:0.95;text-align:center;margin:0 auto;z-index: 11;display: none;}
+.thumb span h3{color:#000;font-size:26px;font-family:libre;font-weight:bold;margin-top:63px;}
+.thumb span h6{font-size:16px;font-family:karla;line-height:26px;font-weight:bold;color:#77A4FF;}
+.thumb span p{font-size:16px;font-family:karla;line-height:22px;color:#000;width:228px;margin:0 auto;}
+
+/**** emp images hover and animation start ******/
+
+.thumb img:hover{
+    filter: blur(1px);
+}
+
+/*** image hover effect start ***/
+
+.business_emp_list li img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.business_emp_list li:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+@keyframes flipInY {
+    from {
+      -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+      transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+      opacity: 0;
+    }
+  
+    40% {
+      -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+      transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+    }
+  
+    60% {
+      -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+      transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+      opacity: 1;
+    }
+  
+    80% {
+      -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+      transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    }
+  
+    to {
+      -webkit-transform: perspective(400px);
+      transform: perspective(400px);
+    }
+  }
+  
+
+  .thumb:hover .come-right {
+    display: block;
+    animation: flipInY 1s;
+}
+
+/*** image hover effect end**/
+    
+.zigzag{margin-top:30px;}
+   
+     
+
+
+
+
+    /**************************************** about us page mobile view css end ***************************************/
+	
+	
+	
+	/*************************   WE-ARE PASSIONATE CSS start **********************************/
+
+	.android-passionate{width:100%;float:left;display:block;margin-top:111px;}
+    .android-passionate h3{font-family:Libre Baskerville;font-weight:bold;font-size:30px;color:#000;opacity:0.87;}	
+	.weare-text{color:#9D9D9D;opacity:0.87;}
+	.weare-img-scn{width:100%;float:left;display:block;margin-top: 23px;}
+	
+	/* team effort css */
+.team_effort{width: 100%;float: left;display:block;margin-top:117px;}
+.team_work{float: left; margin-right: 30px;}
+.team_work img{float: left;margin-right:15px;margin-bottom: 147px;}
+.team_work .team_left{width: 312px;}
+.team_work .team_left h2{margin-top:0px;color: #000000;font-size: 18px;line-height: 35px;font-family: "Karla", sans-serif;font-weight: bold;}
+.team_work .team_left p{margin-top:7px;color: #000000;font-size: 16px;line-height: 22px;font-family: "Karla", sans-serif;}
+
+/* curnt_opning */
+.mt_0{margin-top: 0 !important;}
+.curnt_opning{width: 100%;float:left;display: block;margin-top:45px;background: #F8F8F8;height:auto;}
+.curnt_opning h1{    font-size: 30px;
+    font-weight: bold;
+    margin-top:45px;
+    font-family: "Libre Baskerville", serif;color: #000000;line-height: 85px;}
+    .full_stack{width: 100%;float:left;display:block;}
+    .curnt_opning .full_stack h2{font-size: 18px;line-height: 24px;color: #000000;font-family: "Karla", sans-serif;font-weight: bold; }
+    .curnt_opning .full_stack p{font-size: 16px;line-height: 34px;color: #616161;font-family: "Libre Baskerville", serif;}
+    .curnt_opning .full_stack h5{font-size: 18px;line-height: 20px;color: #4B0FB5;font-family: "Karla", sans-serif;font-weight: bold; margin-bottom: 27px;text-transform: uppercase;}
+.current_btm{border: 1px solid #000000;width: 100%;float: left;margin: 0px 0px 26px 0px;}
+.full_email{color: #4B0FB5;font-size: 18px;font-family: "Libre Baskerville", serif;line-height: 34px;text-decoration:underline;padding-bottom: 76px;float: left;}
+.full_stack a{text-decoration:none;}
+.full_stack a:hover{text-decoration:none;}
+	
+    /*************************   WE-ARE PASSIONATE CSS end **********************************/
+    
+    /********** case- syudy*********/
+.case_study_wrapper{display: block;float: left;width:100%; margin-top: 39px;}
+.case_study_wrapper h1{font-size: 30px;
+    font-weight: bold;
+    font-family: Libre Baskerville;
+    color: #000000;
+    line-height: 40px;
+   }
+.mr_38{margin-right:38px;}
+.case_study_client_wrapper{display: block;float: left;width:100%; margin-top: 14px;background: #F2F2F2;opacity: 0.95;padding:25px 20px;}
+.case_study_client_wrapper h2{font-size: 16px;margin-bottom:13px;color:#000000;opacity: 0.5;font-family: "Karla", sans-serif;}
+.case_study_client_wrapper h3{font-size: 18px;color:#000000;font-family: Libre Baskerville;}
+
+.case_study_technologies{display: block;float: left;width:100%;background: #4B0FB5;padding:25px 20px;}
+.case_study_tech_list h1{font-size: 16px;line-height: 24px;color:#FFFFFF;opacity: 0.5;margin-bottom: 10px;} 
+.case_study_tech_list ul{display: block;padding: 0px;float: left;width: 100%;margin:0px;margin-bottom:25px;}
+.case_study_tech_list li{font-size: 18px;line-height: 40px;font-family: Libre Baskerville;color:#FFFFFF;list-style-type: none;text-decoration: none;margin-right: 27px;float: left;}
+.case_study_tech_list li a{color:#ffffff;}
+.case_study_tech_list li a:hover{text-decoration: none;}
+
+.case_study_our_list h1{font-size: 16px;line-height: 24px;color:#FFFFFF;opacity: 0.5;margin-bottom: 10px;} 
+.case_study_our_list ul{display: block;padding: 0px;float: left;width: 100%;margin:0px;}
+.case_study_our_list li{font-size: 18px;line-height: 40px;font-family: Libre Baskerville;color:#FFFFFF;list-style-type: none;text-decoration: none;margin-right: 21px;float: left;}
+.case_study_our_list li a{color:#ffffff;}
+.case_study_our_list li a:hover{text-decoration: none;}
+.case_study_img img{display: block;float: left;width:100%;margin-top:70px;margin-bottom: 65px;}
+
+.mb_56{margin-bottom: 56px;}
+.mb_62{margin-bottom: 62px;}
+.case_study_ideas_list { display: block;float: left; width: 100%;background: #FFFFFF; }
+.case_study_ideas_list ul{list-style-type: none;display: block; width: 100%;margin-bottom: 88px;}
+.case_study_ideas_list li h1{font-size:30px;color: #000000;font-weight: bold;font-family: Libre Baskerville;margin-bottom:17px;}
+.case_study_ideas_list h3{font-size:16px;color: #000000;font-family: "Karla", sans-serif;margin-top:0px;line-height: 22px;}
+.case_study_ideas_list li img {float: right;font-size: 15px;position: relative;bottom: 41px;width: 15px;}
+    /********end case study******/
+
+
+    /****start contact us****/
+
+    .conatct_us_wrapper{
+        display: block;
+        float: left;
+        width: 100%;
+        margin-top: 230px;
+    }
+    .conatct_us_wrapper h1 {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Libre Baskerville;
+        color: #000000;
+        line-height: 40px;
+    }
+
+    .conatct_us_project_wrapper{
+        display: block;
+        float: left;
+        width: 100%;
+        margin-top: 238px;
+        margin-bottom: 62px;
+    }
+    .conatct_us_project_wrapper h1{
+        font-size: 20px;
+        font-family: Libre Baskerville;
+        font-weight: bold;
+      
+      color:#000000;
+      opacity: 0.5;
+      margin-bottom: 11px;
+    }
+    .conatct_us_project_wrapper h3{
+        font-size: 16px;
+        font-family: "Karla", sans-serif;
+      line-height:22px;
+      color:#000000;
+    margin-bottom: 19px;
+    }
+    .conatct_us_project_wrapper h2{
+        font-size: 18px;
+        font-family: "Karla", sans-serif;
+        font-weight: bold;
+      line-height:20px;
+      color:#000000;
+    margin-bottom: 19px;
+    }
+    .conatct_us_project_wrapper h4{
+        font-size: 16px;
+        font-family: "Karla", sans-serif;
+        font-weight: bold;
+      line-height:20px;
+      opacity: 0.87;
+      color:#000000;
+  
+    }
+    .conatct_us_project_wrapper a{
+     opacity: 0.87;
+      color:#000000;
+   }
+    .conatct_us_project_wrapper span{
+       float: right;
+       display: block;
+      
+    }
+    .border_line{width:100%;height: 2px;background:#000000;opacity: 0.2;margin-top:15px;margin-bottom: 15px;}
+    /****end contact us*****/
+
+
+    /***start contact us 2****/
+    .conatct_us_looking{  display: block;
+        float: left;
+        width: 100%;
+        margin-top: 239px;
+        margin-bottom: 32px;
+       }
+
+        .conatct_us_looking h1{  font-size:20px;  font-family: "Karla", sans-serif;
+        line-height: 23px;color:#000000;opacity: 0.7; margin-bottom: 30px;}
+
+        .contact_us_list{ display:block;float: left;width:100%;}
+    
+        .contact_us_list ul{ padding:0px;margin:0px;list-style-type: none;}
+        .contact_us_list li a{ padding:13px;border:2px solid #DCDCDC;font-size:14px;line-height: 19px;display: block;float: left;font-family: "Karla", sans-serif;font-weight: bold;color:#000000;margin-right: 20px;margin-bottom: 20px;}
+
+        * {box-sizing: border-box;}
+        .contact_form {display:block;float:left;width: 100%;margin-bottom: 70px;}
+.contact_form label{font-size:16px;line-height: 23px;color:#000000;opacity: 0.7; font-family: "Karla", sans-serif;}
+.contact_form input[type=text], select, textarea{
+  width: 100%;
+  font-size:16px;font-family: "Karla", sans-serif;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+ border-bottom: 2px solid rgba(112, 112, 112,0.23);
+  /*opacity: 0.23;*/
+  box-sizing: border-box;
+ margin-bottom: 37px;
+  resize: vertical;
+}
+.contact_form textarea{
+    width: 100%;
+    font-size:16px;font-family: "Karla", sans-serif;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   border-bottom: 2px solid rgba(112, 112, 112,0.23);
+    /*opacity: 0.23;*/
+    box-sizing: border-box;
+  
+    resize: vertical;
+  }
+.contact_form input[type=text]:focus{
+    outline: none;     /* oranges! yey */
+  }
+  .contact_form textarea:focus{
+    outline: none;     /* oranges! yey */
+  }
+
+.contact_form a{width:135px;font-weight: bold; height: 46px;display: block;float: left;color:#FFFFFF;border:2px solid #000000;background: #000000;line-height:46px;text-align: center;font-family: "Karla", sans-serif;margin-top:40px;font-size: 14px;}
+
+/***end  contact us 2****/
+
+/***chilli Publish start***/
+.mb_40{margin-top:40px;}
+.chilli_banner {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-top:153px;
+}
+.chilli_banner h1{font-size: 30px;
+font-weight: bold;
+font-family: Libre Baskerville;
+color: #000000;
+margin-top:27px;
+line-height: 40px;}
+
+.graphic_process {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.graphic_process h1 {
+    font-family: "Karla", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    margin-top: 197px;
+    margin-bottom: 23px;
+}
+
+.graphic_process_list{display:block;float:left;width:100%;}
+.graphic_process_list ul{padding:0px;list-style-type: none;display: block;margin: 0px;}
+.graphic_process_list li h1 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 30px;
+  
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.graphic_process_list p {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #616161;
+    margin-bottom: 1px;
+}
+.graphic_process_list h4 {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    font-weight: bold;
+}
+.graphic_process_list span {
+    margin-left: 20px;
+}
+.graphic_commercial_print {
+    width: 100%;
+    height: 231px;
+    background: rgba(255, 217, 97, 0.4);
+    display: block;
+    float: left;
+    margin-bottom:14px;
+}
+.graphic_commercial_img {
+    margin: 0px auto;
+    margin-top: 26px;
+    display: block;
+}
+.graphic_process_wdth {
+    width: 100%;
+    float: left;
+    display: block;
+ 
+}
+.graphic_process_list_border {
+    width: 100%;
+    height: 1px;
+    background: #000000;
+    opacity: 0.2;
+    float: right;
+    margin-top: 26px;
+    margin-bottom: 30px;
+}
+
+.graphic_brands {
+    width: 100%;
+    height: 229px;
+    background: rgba(12, 12, 12, 0.1);
+    display: block;
+    float: left;
+    margin-bottom: 16px;
+}
+.graphic_brands_1_img {
+    margin: 0px auto;
+    margin-top: 27px;
+    display: block;
+}
+.graphic_brands_2_img {
+    margin: 0px auto;
+    margin-top: 12px;
+    display: block;
+}
+
+.graphic_agencies {
+    width: 100%;
+    height: 231px;
+    background: #B7FFF3;
+    display: block;
+    float: left;
+    margin-bottom: 14px;
+}
+.graphic_agencies_img {
+    margin: 0px auto;
+    margin-top: 39px;
+    display: block;
+}
+.graphic_packaging {
+    width: 100%;
+    height: 232px;
+    background: #AEFFC4;
+    display: block;
+    float: left;
+    margin-bottom:14px;
+}
+.graphic_packaging_img {
+    margin: 0px auto;
+    margin-top: 42px;
+    display: block;
+}
+.chilli_simplify {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-top: 61px;
+}
+.chilli_simplify h2 {
+    font-size: 18px;
+    font-family: "Karla", sans-serif;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 32px;
+}
+.chilli-client-img {
+    position: relative;
+    width: 100%;
+    float: left;
+    display: block;
+}
+
+.client-img-opa {
+    opacity: 0.7;
+}
+.player-button {
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.chilli_template {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-top:66px;
+    margin-bottom: 30px;
+}
+.chilli_template h1 {
+    font-size: 30px;
+    font-family: "Libre Baskerville", serif;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.chilli_temp_box {
+    width: 100%;
+    float: left;
+    display: block;
+   
+}
+.chilli_left_box {
+    width: 194px;
+    height:154px;
+    border: 1px solid #cfd5e1;
+    display: block;
+    float: left;
+    position: relative;
+    margin-right: 133px;
+    margin-bottom: 40px;
+}
+.chilli_left_box h2 img {
+    border-radius: 100%;
+    float: left;
+    margin: 34px 24px 34px 21px;
+    width:85px;
+    height: 85px;
+}
+.chilli_left_box h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #000000;
+    position: absolute;
+    background: #FFFFFF;
+    padding: 6px 0px;
+    width: 190px;
+    left: 130px;
+    top: 37px;
+}
+/***chilli Publish end***/
+
+
+/*****start services****/
+.service_page_banner{display: block;float: left;width: 100%;margin-top:230px;}
+.service_page_banner h1 {font-size: 30px;line-height:40px; color: #000000; margin-bottom: 233px;font-weight: bold;font-family: "Libre Baskerville", serif;}
+.design-main{width:100%;float:left;display:block;}
+.service-text-main{width:100%;float:left;display:block;}
+.service-text-main h3{font-family:"Libre Baskerville"; font-weight:bold;font-size:30px;line-height:60px;color:#000;}
+.service-text-main p{font-family: "Karla";font-size:16px;line-height:22px;color:#616161;}
+.srvc-desn-img{width:100%;float:left;display:block;}
+.srvc-desn-types{width:100%;float:left;display:block;background: #F8F8F8;height:auto;padding:25px 28px;}
+.srvc-desn-types ul{list-style-type: none;}
+.srvc-desn-types li a{font-family:"karla";font-weight:bold;font-size:16px;line-height:20px;color:#000;opacity:0.70;}
+.srvc-desn-types li{padding-bottom:13px;}
+.bb-ue{text-decoration:underline;}
+.mb-serc-desn{margin-bottom: 64px;}
+
+.techno-main{width:100%;float:left;display:block;background:#FBFBFB;height:auto;margin-top:80px;padding: 0 20px;}
+.techno-head-text{width:100%;float:left;display:block; padding-top:34px;padding-bottom:26px;}
+.techno-head-text p{font-family: "Karla";font-size:18px;line-height:24px;color:#000;opacity:0.70;}
+.service_ideas_list { display: block;float: left; width: 100%; }
+.service_ideas_list ul{list-style-type: none;display: block; width: 100%;}
+.service_ideas_list li h1{font-size:20px;color: #000000;font-weight: bold;font-family: Libre Baskerville;margin-bottom:17px;}
+.service_ideas_list h3{font-size:16px;color: #000000;font-family: "Karla", sans-serif;margin-top:0px;line-height: 22px;}
+.service_ideas_list li img {float: right;font-size: 15px;position: relative;bottom: 41px;width: 15px;}
+.techno-type-edit li a{font-family: "Karla";font-size:20px;line-height:26px;color:#000;opacity:0.68;padding-bottom: 20px;text-decoration:underline;}
+.border-btm{border-bottom:1px solid #f3f3f3;margin-bottom:17px;}
+.service_ideas_list li{margin-bottom:17px;}
+
+.wrk-we-did{width:100%;float:left;display:block;}
+.wrk-we-text{width:100%;float:left;display:block;    margin-top: 64px;}
+.wrk-we-img{margin-bottom:50px;}
+.wrk-we-text h3{font-family:"Libre Baskerville";font-size:30px;line-height:50px;font-weight:bold;color:#000;margin-bottom: 23px;}
+.wrk-we-img h6{font-size:16px;line-height:20px;color:#000000;margin-top:25px;font-weight: bold;font-family: "Karla", sans-serif;}
+.wrk-we-img p{font-size:14px;line-height:20px;color:#6A6A6A;font-family: "Karla", sans-serif;}
+.wrk-we-img h2{font-size:20px;line-height:30px;color:#000000;font-family: "Libre Baskerville", serif;font-weight: bold;margin-top:14px;}
+/*****services end*****/
+
+	
+/* blog-detail css */
+.home_wrp {width: 100%;float: left;display: flex;background: #F9F9F9;overflow: scroll;}
+.chilli_banner p{font-size: 14px;line-height: 20px;color: #000000;opacity: 0.5; font-family: "Karla", sans-serif;  margin: 19px 0px 37px 0px; }
+.blog_rember{margin: 37px 0 27px 0;width: 100%;  float:left;  display: block;}
+.blog_rember p{font-size:16px;line-height: 24px;color: #616161;  font-family: "Karla", sans-serif;}
+.blog_more_read{width: 300px;float: left;display: block;}
+.blog_more_read h6{font-size: 18px;line-height: 23px;font-family: "Karla", sans-serif;padding:66px 0px 0px 20px;margin-bottom: 25px;}
+.blog_more_read img {float: left;display: block;margin-left:20px;margin-bottom: 16px;}
+.blog_more_read_pro { width:285px;float: left;display: block;margin-left: 20px;}
+.blog_more_read_pro h4{font-size:16px;color: #F23BF2;line-height: 24px;font-family: "Karla", sans-serif;}
+.blog_more_read_pro h5{font-size: 18px;line-height: 28px;color:#000000;opacity:0.87;font-family: "Libre Baskerville", serif;font-weight: bold;margin-bottom:10px;}
+.blog_more_read_pro span {font-size:14px;line-height: 20px;color:#000000;opacity: 0.50;font-family: "Karla", sans-serif;}
+.blog_more_read_pro p {font-size: 16px;line-height: 24px;opacity: 0.50;color:#000000; margin-top:11px;margin-bottom: 70px;font-family: "Karla", sans-serif;}
+.mt_20 {margin-top:114px;}
+
+
+/********     blog listing css  **********/
+
+.chilli_banner_1 {display: block;float: left;width: 100%;margin-top:230px;margin-bottom:239px;}
+.chilli_banner_1 h1{font-size: 30px;font-weight: bold;font-family: Libre Baskerville;color: #000000;margin:0px;line-height: 40px;}
+.Filter_button {width: 100%;float:left;display: block;border-bottom: 1px solid #ccc;margin-bottom: 30px;}
+.button_text {width: 100%;float:left;display: block;}
+.button_text p {font-size: 20px;line-height: 23px;opacity: 0.70;color:#000000;font-family: "Karla", sans-serif;margin-bottom: 30px;}
+.Filter_section {list-style-type: none;width: 100%;float: left;display: block;margin-bottom: 22px;}
+.Filter_section li a {float: left;margin-right: 20px;border: 2px solid #DCDCDC;font-size: 14px;font-weight: bold;margin-bottom: 22px;text-transform: uppercase;color: #000000;line-height: 19px;padding: 15px 15px 15px 15px;font-family: "Karla", sans-serif;text-decoration: none;}
+.Filter_section .color_text {border:2px solid #2A2A2A;background: #D9D9D9;}
+.Filter_section a:hover {background: #D9D9D9;border:2px solid #2A2A2A;}
+.Filter_section .color_text:hover {border: 2px solid #DCDCDC;background:#fff;}
+.main_wrp {width:100%;float: left;display: block;}
+.user_experience {width: 100%;float: left;display: block;margin-bottom: 64px;}
+.user_experience img {margin-bottom: 17px;}
+.user_experience h4 {font-size: 14px;line-height: 24px;color: #12C93D;font-family: "Karla", sans-serif;margin-bottom: 9px;}
+.user_experience h5 {font-size:20px;line-height: 30px;color: #000000;font-family: "Libre Baskerville", serif;font-weight: bold;margin-bottom: 11px;}
+.user_experience p {font-size: 14px;line-height: 20px;color: #000000;font-family: "Karla", sans-serif;margin-bottom: 13px;}
+.user_experience h6 {font-size: 16px;line-height: 22px;color: #000000;margin-bottom: 13px;font-family: "Karla", sans-serif;}
+.check_read_btn {font-family: "Karla", sans-serif;font-size: 18px;line-height: 20px;color:#EB4134;font-weight: bold;}
+
+/***   FAQ CSS ***/
+.chilli_banner_pro {display: block;float: left;width: 100%;margin-top:230px;margin-bottom:239px;}
+.chilli_banner_pro h1{font-size: 30px;font-weight: bold;font-family: Libre Baskerville;color: #000000;margin:0px;line-height: 40px;}
+.Filter_button_1 {width: 100%;float:left;display: block;}
+.button_text_1 {width: 100%;float:left;display: block;}
+.button_text_1 p {font-size: 20px;line-height: 23px;opacity: 0.70;color:#000000;font-family: "Karla", sans-serif;margin-bottom: 30px;}
+.Filter_section_1 {list-style-type: none;width: 100%;float: left;display: block;margin:0px;transition: width 600ms ease-out, height 600ms ease-out;}
+.Filter_section_1 li a {float: left;margin-right: 20px;border: 2px solid #DCDCDC;font-size: 14px;font-weight: bold;text-transform: uppercase;color: #000000;line-height: 19px;padding: 13px 13px 13px 13px;font-family: "Karla", sans-serif;text-decoration: none;margin-bottom: 22px;}
+.Filter_section_1 .color_text_1 {border:2px solid #2A2A2A;background: #D9D9D9; margin-right:10px !important;}
+.Filter_section_1 a:hover {background: #D9D9D9;border:2px solid #2A2A2A;}
+.Filter_section_1 .color_text_1:hover {border: 2px solid #DCDCDC;background:#fff;}
+.elite_wrp {width: 100%;float: left;display:block;}
+.team_elite {width: 100%;float: left;display: block;margin-top: 17px;}
+.team_elite h1 {font-size: 20px;line-height: 30px;font-weight: bold;color: #000000;font-family: "Libre Baskerville", serif;margin-bottom: 20px;}
+.team_elite p {font-family: "Karla", sans-serif;font-size: 16px;line-height: 22px;color: #616161;}
+.brdr_line {width:100%;float:left;display: block;border-bottom: 1px solid #000;margin: 29px 0px 26px 0;opacity: 0.20;}
+.lets_find_it{width:100%;float:left;display: block;margin-top: 65px;margin-bottom: 46px;}
+.lets_find_it h4{font-family: "Karla", sans-serif;font-weight: bold;font-size: 20px;line-height: 44px;color: #000000;}
+.lets_find_it p {font-family: "Libre Baskerville", serif;font-size: 16px;line-height: 28px;color:#616161;}
+.lets_find_it a {color: #4B0FB5;text-decoration: none;}
+
+/************   career css   ******/
+.user_ex {width:100%;float: left;display: block;margin-top: 107px;}
+.user_ex h1 {font-size: 30px;line-height: 40px;color: #000000;font-weight: bold;font-family: "Libre Baskerville", serif;}
+.location_chd {width: 100%;float: left;display: block;margin-top: 17px;margin-bottom:30px;}
+.location_chd img {float: left;margin-right: 8px;}
+.location_chd a {font-size: 16px;font-family: "Karla", sans-serif;line-height: 17px;font-weight: bold;color: #4B0FB5;text-transform: uppercase;}
+.job_introduction{width: 100%;float: left;display: block;}
+.look_btn{width: 100%;float: left;display: block;margin-top:50px;}
+.look_btn h1 {font-size: 20px;line-height: 70px;color:#000000;font-weight: bold;font-family: "Libre Baskerville", serif;}
+.look_btn p{font-family: "Karla", sans-serif;font-size: 16px;line-height: 24px;color: #616161;margin: 0px;}
+.look_btn a {width: 163px;height: 47px;background: #EB3B2E;float: left;font-size: 18px;line-height: 47px;color:#FFFFFF;text-align: center;margin-top: 19px;font-family: 'Poppins', sans-serif;}
+.mb_0 {margin-bottom: 54px;}
+
+
+
+
+    /******************************** menue mobile view css start ***********************/
+     .overflw{ overflow:hidden;}
+    .menue_wrap_mobile{    width: 100%;
+    float: left;
+    background: #000000;
+    height: 100%;
+    position:fixed;
+    
+    z-index: 99999;
+    display: block;
+   }
+   
+    .menue-padding{width:100%;float:left;display:block;padding:0px 20px;}
+    .work-about{width:100%;float:left;display:block;margin-top:23px;}
+    .work-about img{float:right;}
+    .bb-none{border-bottom:none !important; }
+    .work-about ul{list-style-type: none;margin-top: 26px;}
+    .work-about ul a{color:white;opacity:0.87;font-family: Libre Baskerville;font-weight:bold;font-size:25px;line-height:65px;}
+    .work-about ul li{border-bottom:1px solid rgb(51, 51, 51)}
+    .work-about ul a:hover{text-decoration:none;}
+    .career-blog{width:100%;float:left;display:block;margin-top:30px;}
+    .career-blog ul{list-style-type: none;}
+    .career-blog li{float:left; margin-right:49px;}
+    .career-blog ul a{color:white;opacity:0.20;font-family:Karla;font-size:20px;line-height:44px;text-decoration: none;}
+    .mb-cntct{margin-right:0px !important;}
+    .got_an_idea{width:100%;float:left;display:block;margin-top:43px;}
+    .mr-arrow-menue{margin-left:6px;}
+    .got_an_idea h3{font-family:Libre Baskerville;font-weight:bold;font-size:25px;line-height:31px;color:#fff;opacity:0.20;margin-bottom:13px;}
+    .got_an_idea h4{font-family:Karla;font-size:16px;line-height:19px;color:#fff;margin: 0;}
+    .got_an_idea a{color:#fff;}
+    .got_an_idea a:hover{text-decoration:none;color:#fff;}
+
+
+    .social-area{width:100%;float:left;display:block;margin-top:48px;}
+    .social-area ul{list-style-type: none;}
+    .social-area li{float:left;margin-right:24px;text-decoration:underline;}
+    .social-area a:hover{text-decoration:none;color:#fff;}
+    .social-area a{color:#fff;opacity:0.30;font-size:15px;font-family:Karla;line-height:26px;}
+ 
+
+/******************************** menue mobile view css start ***********************/
+
+
+
+/*******************************case_study_listing_1 page CSS Start *****************************/
+.mr_mbile-app{margin-right:0 !important;}
+.mb_brand{margin-bottom:0 !important;}
+.case_study_mb{margin-bottom:30px;}
+.CS_lstng_jt{width:100%;float:left;display:block;}
+.CS_lstng_img{width:100%;float:left;display:block;margin-bottom:25px;}
+.CS_lstng_texts{width:100%;float:left;display:block;}
+.CS_lstng_head{width:100%;float:left;display:block;}
+.CS_lstng_texts p{font-family:"karla"; font-weight:bold;font-size:16px;line-height:20px;color:#000;}
+.spn_trdeship {font-family:"karla"; font-size:14px;line-height:20px;color:#6A6A6A;}
+.CS_lstng_head h3{font-family:"Libre Baskerville"; font-weight:bold;font-size:20px;line-height:30px;color:#000;opacity:0.87;}
+.mt_22-main{margin-top:22px;}
+.mb_22_main{margin-bottom:22px;}
+/*******************************case_study_listing_1 page CSS Start *****************************/
+
+
+
+
+/*******************************industries_m page CSS start *****************************/
+.industries_m_list { display: block;background: #FFFFFF;}
+.industries_m_list ul{list-style-type: none;}
+.industries_m_list li h1{font-size:14px;font-weight: bold;font-family:"karla";line-height:56px;color:#EB3B2E;margin-left:10px;}
+.industries_m_list h3{font-size:16px;color: #000000;font-family: "Karla", sans-serif;margin-top:0px;line-height: 22px;}
+.industries_m_list li img {position: relative;bottom: 0px;width: 8px; left: 4px;}
+.ind_auto_main1{width:100%;float:left;display:block;background:#FFF2F4;padding:20px 21px;margin-top:30px;}
+.ind_auto_main2{width:100%;float:left;display:block;background:#F9FFC7;padding:20px 21px;margin-top:30px;}
+.ind_auto_main3{width:100%;float:left;display:block;background:#F3F9FF;padding:20px 21px;margin-top:30px;}
+.ind_auto_main4{width:100%;float:left;display:block;background:#FBF5EB;padding:20px 21px;margin-top:30px;}
+.ind_auto_main5{width:100%;float:left;display:block;background:#F9FFC7;padding:20px 21px;margin-top:30px;}
+.ind_auto_main6{width:100%;float:left;display:block;background:#F3F9FF;padding:20px 21px;margin-top:30px;}
+.ind_auto_main_img{width:100%;float:left;display:block;}
+.ind_auto_main_text{width:100%;float:left;display:block; }
+.ind_auto_main_text h3{font-size:24px;font-weight: bold;font-family:"Libre Baskerville";line-height:60px;color:#000;}
+.ind_auto_main_text p{font-size:16px;font-family:"Karla";line-height:22px;color:#000;margin-bottom:0;}
+.ind_auto_main_text h5{font-size:16px;font-family:"Karla";line-height:20px;color:#000;font-weight: bold;}
+.ind_rigt-arow{margin-left:13px;}
+.ind_health_text{width:100%;float:left;display:block;margin-top:45px;margin-bottom:23px;}
+.ind_health_text h3{font-family:"Libre Baskerville";font-weight:bold;font-size:30px;line-height:50px;color:#000000;}
+.filter_relative{position: relative;width:100%;float: left;display: block;height:auto;transition:3s;}
+.filter_relative .less_bottm{ position: absolute;bottom: 14px;right:76px;}
+.more_postn{position: absolute;top: -75px;right: 51px; display: block;}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+    .wdth_60{ width: 140px;}
+    .wdth_50{width: 550px;}
+}
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px)  {
+    .wdth_60{ width: 390px;}
+    .wdth_50{width: 140px;}
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px)  {
+    .wdth_60{display: flex;width: 10px;}
+    .wdth_50{display: flex;width: 10px;}
+}
+@media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 640px)  {
+    .wdth_60{display: flex;width: 60px;}
+    .wdth_50{display: flex;width: 60px;}
+}
+
+#wrapper {
+              overflow: hidden;
+              transition: 1s;
+  }
+/*******************************industries_m page CSS start *****************************/
+
+/****************************industries_m_3 page CSS start ****************************/
+.ind_3_we-are{width:100%;float:left;display:block;}
+.ind_3_we-are-text{width:100%;float:left;display:block;margin-bottom:32px;}
+.ind_3_we-are-img{width:100%;float:left;display:block;}
+.ind_3_we-are-text p{font-family:"Karla";font-size:16px;line-height:22px;color:#616161;}
+
+.industry_m_3_list{ display: block;float: left; width: 100%;background: #FFFFFF;border-bottom: 1px solid #cccccc;}
+.bb-none-ind3{border-bottom:none;}
+.mb-none-ind3{margin-bottom:0 !important;} 
+.industry_m_3_list ul{list-style-type: none;display: block; width: 100%;}
+.industry_m_3_list li h1{font-size:24px;color: #000000;line-height:70px;font-weight: bold;font-family: Libre Baskerville;}
+.industry_m_3_list h3{font-size:16px;color:#616161;font-family: "Karla", sans-serif;margin-top:0px;line-height: 22px;}
+.industry_m_3_list li img {float: right;font-size: 15px;position: relative;bottom: 48px;width: 15px;}
+.back-ground_ind3{background:rgb(255, 240, 192);width:100%;height:198px;float:left;position:relative;margin-top:16px;    margin-bottom: 30px;}
+
+.industry_m_3_list .back-ground_ind3 .pack_img{width:auto !important;position: absolute;left: 0;right: 0; margin: 0 auto; }
+.mt-ind3-imp{margin-top:87px;}
+.mb-ind3-imp{margin-bottom:41px;}
+.ind3_we-are-think{width:100%;float:left;display:block;margin-top:41px;border-top: 1px solid #000;border-bottom: 1px solid #000;padding: 17px 0px;}
+.ind3_we-are-think p{font-family:"Karla"; font-size:16px;line-height:22px;color:#000000;    margin-bottom: 0; text-align:center;}
+
+
+
+/****************************industries_m_3 page CSS start ****************************/
+
+
+/*************************user-experience CSS Start ********/
+.ui-banner-main {display: block;float: left;width: 100%;margin-top:187px;margin-bottom:157px;}
+.ui-banner-main h1{font-size: 30px;font-weight: bold;font-family: Libre Baskerville;color: #000000;margin:0px;line-height: 40px;}
+.ui-banner-main p{font-size: 20px;font-weight: bold;font-family:"Karla";color: #FF0000;    margin-bottom: 10px;}
+.ui_remmbr_when_main{width:100%;float:left;display: block;margin-bottom:20px;}
+.ui_remmbr_when_img{width:100%;float:left;display: block;margin-bottom:25px;    }
+.ui_remmbr_when_text{width:100%;float:left;display: block;}
+.ui_remmbr_when_text h4{font-family:"karla";font-size:16px;line-height:22px;color:#616161;margin-bottom:20px;}
+.ui_remmbr_when_text h5{font-family:"karla";font-size:16px;line-height:22px;color:#616161;margin-bottom:20px;}
+.ui_remmbr_when_text h6{font-family:"karla";font-size:16px;line-height:22px;color:#616161;}
+
+.ui-main-capablty{width:100%;float:left;display: block;     margin-top: 18px;}
+.ui-capblty-head{width:100%;float:left;display: block;}  
+.ui-capblty-head h3{font-family:"karla";font-weight:bold;font-size:30px;line-height:20px;color:#000000;opacity:0.70;}
+.ui-main-types-capablty{width:100%;float:left;display: block;margin-bottom:60px;}
+.ui-dsgn-strtgy-var{width:100%;float:left;display: block;margin-top:17px;}
+.ui-dsgn-strtgy-var h3{font-size: 30px;font-weight: bold;-webkit-text-stroke: 1px #707070; opacity: 0.41;color: #fff; float: left;margin-right:16px;}
+.ui-dsgn-strtgy-var h4{font-size: 20px;font-weight: bold;font-family: Libre Baskerville;color: #000000;opacity:0.70;margin-top:5px;}
+.ui-dsgn-strtgy-txt{width:100%;float:left;display: block;}
+.ui-dsgn-strtgy-txt p{font-family:"karla";font-size:16px;line-height:24px;color:#616161;     margin-bottom: 0;}
+.ui-dsgn-strtgy-img{width:100%;float:left;display: block;margin-top:20px;}
+
+.desn-prcss-main{width:100%;float:left;display: block;    margin-top: 66px;}
+.dsn-prcss-text{width:100%;float:left;display: block;margin-bottom:40px;}
+.dsn-prcss-img{width:100%;float:left;display: block;}
+.dsn-prcss-text h3{font-size: 30px;font-weight: bold;font-family: Libre Baskerville;color: #000000;opacity:0.70;line-height: 20px;}
+.ui_health_text{width:100%;float:left;display:block;margin-top:94px;margin-bottom:23px;}
+.ui_health_text h3{font-family:"Libre Baskerville";font-weight:bold;font-size:30px;line-height:50px;color:#000000;}
+/*************************user-experience CSS end ********/
+
+
+
+/********************************user interface CSS start ****************/
+
+.ux_remmbr_when_main{width:100%;float:left;display: block;margin-bottom:20px;}
+.ux_remmbr_when_img{width:100%;float:left;display: block;margin-bottom:25px;    }
+.ux_remmbr_when_text{width:100%;float:left;display: block;}
+.ux_remmbr_when_text h4{font-family:"karla";font-size:16px;line-height:22px;color:#616161;margin-bottom:20px;}
+.ux_remmbr_when_text h5{font-family:"karla";font-size:16px;line-height:22px;color:#616161;margin-bottom:20px;}
+.ux_remmbr_when_text h6{font-family:"karla";font-size:16px;line-height:22px;color:#616161;}
+.mr-ux-img{margin-right:12px;}
+
+.ux-main-capablty{width:100%;float:left;display: block;     margin-top: 18px;margin-bottom:70px;}
+.ux-capblty-head{width:100%;float:left;display: block;}  
+.ux-capblty-head h3{font-family:"karla";font-weight:bold;font-size:30px;line-height:20px;color:#000000;opacity:0.70;}
+.ux-logo-brnd-main{float:left;display: block;     border: 1px solid #d5dcea;width: 228px;height: 177px; position: relative;    margin-top: 40px;    margin-right: 136px;}
+.ux-brnd-img{float:left;display: block;margin-bottom: 52px;position:absolute;top:67px;left:24px;}
+.ux-brnd-text{width: 262px;display: block;background:#fff;padding: 8px;float: right;position:absolute;top: 20px;margin-left: 77px;}
+.ux-brnd-text h3{font-family:"Libre Baskerville";font-weight:bold;font-size:20px;line-height:19px;color:#000000;}
+.ux-brnd-text p{font-family:"karla";font-weight:bold;font-size:14px;line-height:22px;color:#616161;}
+
+.ux-dsn-prncpl{width:100%;float:left;display: block;}
+.ux-dsn-prnspl-img{width:100%;float:left;display: block;margin-bottom:78px;}
+.ux-dsn-prnspl-text{width:100%;float:left;display: block;background:#F5F5F5;padding:15px 18px;}
+.ux-dsn-prnspl-text h3{font-family:"karla";font-weight:bold;font-size:20px;line-height:20px;color:#000000;opacity:0.70;margin-bottom:7px;}
+.ux-dsn-prnspl-text p{font-family:"karla";font-size:16px;line-height:22px;color:#616161;}
+
+.ux-design-prcss-main{width:100%;float:left;display: block;    margin-top: 66px;}
+.ux-design-prcss-head{width:100%;float:left;display: block;    margin-bottom: 120px;}
+.ux-prcs-typ-main{width:100%;float:left;display: block; border-bottom:1px solid #000;margin-bottom:19px;}
+.ux-prcs-typ-var{float: left;    margin-bottom: 24px;}
+.ux-prcs-typ-text{width:100%;margin-top: 16px;}
+.ux-design-prcss-head h3{font-family:"Libre Baskerville";font-weight:bold;font-size:30px;line-height:20px;color:#000000;opacity:0.70;}
+.ux-prcs-typ-var h1{-webkit-text-stroke: 1px #DCDCDC;font-size: 30px; line-height: 58px;font-family: "Poppins", sans-serif; display: block;float: left;margin-right: 14px;color: #ffffff;font-weight: bold;width: 30px;}
+.ux-prcs-typ-text h3{font-family:"Libre Baskerville";font-weight:bold;font-size:20px;line-height:21px;color:#000000;}
+.ux-prcs-typ-text p{font-family:"karla";font-size:16px;line-height:22px;color:#616161;}
+.bb-none{border-bottom:none !important;margin-bottom:0 !important;}
+
+.ux_health_text{width:100%;float:left;display:block;margin-top:46px;margin-bottom:23px;}
+.ux_health_text h3{font-family:"Libre Baskerville";font-weight:bold;font-size:30px;line-height:50px;color:#000000;}
+
+
+
+/********************************user interface CSS end ****************/

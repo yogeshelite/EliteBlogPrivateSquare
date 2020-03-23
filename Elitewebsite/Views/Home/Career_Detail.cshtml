@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Career_Detail";
+}
+
+<section class="chilli_wraper">
+
+    <main class="container">
+        <!--container start-->
+        <section>
+            <ul class="bread_crumbs">
+                <li style="margin-right: 5px;">@Html.ActionLink("HOME", "Index", "home")</li>
+                <li><span class="activated">/ CAREER DETAIL</span></li>
+            </ul>
+        </section>
+        <!-- start career_banner -->
+        <article class="career_banner">
+            <h1>User Experience Designer</h1>
+            <h5><span><a href=""><img src="~/Content/Images/loction.svg"></a></span>Chandigarh</h5>
+            <h2><img src="~/Content/Images/career_design.png"></h2>
+        </article><!-- end career_banner-->
+
+        <section class="career_job">
+            <h1 class="aos-item" data-aos="fade-right">Job Introduction</h1>
+            <p class="aos-item" data-aos="fade-right">We are looking for freethinkers who visualize what others don’t and are comfortable outside the box. People who empathize with users and simplify solutions like a piece of cake! You should be excited about research and analysis and also open-minded with an unquenchable thirst for new approaches and solutions to real-world problems faced by a common man. You should analyse tasks, user journeys and provide workflows, interactions and wireframes.</p>
+            <h2 class="aos-item" data-aos="fade-left"><a href="">APPLY</a></h2>
+        </section>
+
+        <section class="career_mission">
+            <h1 class="aos-item" data-aos="fade-up">Your Mission</h1>
+            <p class="aos-item" data-aos="fade-up">Think, argue, analyse, strategize and iterate. Open-minded for suggestions and criticism with an unbreakable spirit. Analyse ‘what’ and not “how” the user does it. Create wireframe specifications with interaction flows. In-depth understanding of clients and users. Apply strategic design thinking to real-world problems. An eye for usability, minimalism and simplicity.</p>
+
+        </section>
+
+        <section class="career_ideally">
+            <h1 class="aos-item" data-aos="fade-up">Ideally, you should have</h1>
+            <p class="aos-item" data-aos="fade-up">Think, argue, analyse, strategize and iterate. Open-minded for suggestions and criticism with an unbreakable spirit. Analyse ‘what’ and not “how” the user does it. Create wireframe specifications with interaction flows. In-depth understanding of clients and users. Apply strategic design thinking to real-world problems. An eye for usability, minimalism and simplicity.</p>
+
+        </section>
+
+    </main> <!--container end-->
+    @Html.Partial("~/Views/Shared/footer_top.cshtml")
+</section>

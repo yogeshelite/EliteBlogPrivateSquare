@@ -1,0 +1,2 @@
+D:\Project\PrivateSquares-Contact\PrivateSquares.Api\obj\Debug\WebApi.csprojAssemblyReference.cache
+D:\Project\PrivateSquares-Contact\PrivateSquares.Api\obj\Debug\WebApi.csproj.CoreCompileInputs.cache

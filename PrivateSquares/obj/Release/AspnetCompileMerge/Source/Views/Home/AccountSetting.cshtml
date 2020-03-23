@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "AccountSetting";
+    Layout = "~/Views/Shared/_signinout.cshtml";
+}
+
+
+<div class="signin-wrapper">
+
+    <div class="signin-box">
+        <h2 class="slim-logo"><a href="index.html"><img src="~/Images/logo.png" /></a></h2>
+
+        <div class="form-group">
+            <label id="lblemail"></label>
+            <input id="txtcurrentpswd" type="password" class="form-control" value="" placeholder="your current password">
+
+        </div><!-- form-group -->
+        <div class="form-group">
+            <p>Choose a strong password and don't reuse it for other accounts</p>
+
+            <p>Use at least 8 characters,combination of uppercase,lowercase,special character Don’t use a password from another site or something too obvious like your pet’s name</p>
+            <input id="txtnewpswd" type="password" class="form-control" value="" placeholder="Enter new password">
+
+        </div><!-- form-group -->
+        <div class="form-group">
+            <input id="txtconfirmpswd" type="password" class="form-control" placeholder="Confirm password">
+        </div><!-- form-group -->
+        @*<a href=""><button onclick="ChangePassword();" class="btn btn-primary btn-block btn-signin">Save Changes</button></a>*@
+        <input value="Save Changes" type="button" onclick="ChangePassword();" class="btn btn-primary btn-block btn-signin">
+        <div class="row">
+            <div class="col-md-6">
+                <a href="/Home/Login">Login</a>
+            </div>
+            <div class="col-md-6">
+                <p id="msg">@ViewBag.changepwsmsg</p>
+            </div>
+
+        </div>
+
+    </div><!-- signin-box -->
+
+</div><!-- signin-wrapper -->
+
+<script>
+    $(document).ready(function () {
+        Userprofile();
+    });
+</script>

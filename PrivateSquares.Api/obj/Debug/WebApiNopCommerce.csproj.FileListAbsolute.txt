@@ -1,0 +1,189 @@
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\WebApiNopCommerce.dll.config
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\WebApiNopCommerce.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\WebApiNopCommerce.pdb
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\csc.exe
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\csc.exe.config
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\csc.rsp
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\csi.exe
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\csi.exe.config
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\csi.rsp
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.AppContext.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.Console.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.IO.Compression.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.Security.Claims.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.ValueTuple.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\vbc.exe
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\vbc.exe.config
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\vbc.rsp
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\VBCSCompiler.exe
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\Antlr3.Runtime.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\Newtonsoft.Json.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Net.Http.Formatting.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Web.Helpers.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Web.Http.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Web.Http.WebHost.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Web.Mvc.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Web.Optimization.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Web.Razor.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Web.WebPages.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Web.WebPages.Razor.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\WebGrease.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\Newtonsoft.Json.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Net.Http.Formatting.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Web.Helpers.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Web.Http.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Web.Http.WebHost.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Web.Mvc.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Web.Optimization.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Web.Razor.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Web.WebPages.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\System.Web.WebPages.Razor.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\Antlr3.Runtime.pdb
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\obj\Debug\WebApiNopCommerce.csprojAssemblyReference.cache
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\obj\Debug\WebApiNopCommerce.csproj.CoreCompileInputs.cache
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\obj\Debug\WebApiNopCommerce.csproj.CopyComplete
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\obj\Debug\WebApiNopCommerce.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\obj\Debug\WebApiNopCommerce.pdb
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\EntityFramework.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\EntityFramework.SqlServer.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\EntityFramework.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\WebApiNopCommerce\WebApiNopCommerce\bin\EntityFramework.SqlServer.xml
+d:\NopcartApi\WebApiNopCommerce\obj\Debug\WebApiNopCommerce.csproj.CoreCompileInputs.cache
+d:\NopcartApi\WebApiNopCommerce\obj\Debug\WebApiNopCommerce.dll
+d:\NopcartApi\WebApiNopCommerce\obj\Debug\WebApiNopCommerce.pdb
+d:\NopcartApi\WebApiNopCommerce\bin\WebApiNopCommerce.dll.config
+d:\NopcartApi\WebApiNopCommerce\bin\WebApiNopCommerce.dll
+d:\NopcartApi\WebApiNopCommerce\bin\WebApiNopCommerce.pdb
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\csc.exe
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\csc.exe.config
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\csc.rsp
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\csi.exe
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\csi.exe.config
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\csi.rsp
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\Microsoft.CodeAnalysis.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\Microsoft.CSharp.Core.targets
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\Microsoft.Managed.Core.targets
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.AppContext.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.Collections.Immutable.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.Console.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.Diagnostics.StackTrace.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.IO.Compression.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.IO.FileSystem.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.IO.FileSystem.Primitives.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.IO.Pipes.AccessControl.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.IO.Pipes.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.Reflection.Metadata.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.Security.AccessControl.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.Security.Claims.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.Security.Cryptography.Encoding.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.Security.Cryptography.Primitives.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.Security.Principal.Windows.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.Text.Encoding.CodePages.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.ValueTuple.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.Xml.ReaderWriter.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.Xml.XmlDocument.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.Xml.XPath.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\System.Xml.XPath.XDocument.dll
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\vbc.exe
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\vbc.exe.config
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\vbc.rsp
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\VBCSCompiler.exe
+d:\NopcartApi\WebApiNopCommerce\bin\roslyn\VBCSCompiler.exe.config
+d:\NopcartApi\WebApiNopCommerce\bin\Antlr3.Runtime.dll
+d:\NopcartApi\WebApiNopCommerce\bin\AutoMapper.dll
+d:\NopcartApi\WebApiNopCommerce\bin\EntityFramework.dll
+d:\NopcartApi\WebApiNopCommerce\bin\EntityFramework.SqlServer.dll
+d:\NopcartApi\WebApiNopCommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+d:\NopcartApi\WebApiNopCommerce\bin\Microsoft.Web.Infrastructure.dll
+d:\NopcartApi\WebApiNopCommerce\bin\Newtonsoft.Json.dll
+d:\NopcartApi\WebApiNopCommerce\bin\System.Net.Http.Formatting.dll
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.Helpers.dll
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.Http.dll
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.Http.WebHost.dll
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.Mvc.dll
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.Optimization.dll
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.Razor.dll
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.WebPages.Deployment.dll
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.WebPages.dll
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.WebPages.Razor.dll
+d:\NopcartApi\WebApiNopCommerce\bin\WebGrease.dll
+d:\NopcartApi\WebApiNopCommerce\bin\AutoMapper.xml
+d:\NopcartApi\WebApiNopCommerce\bin\EntityFramework.xml
+d:\NopcartApi\WebApiNopCommerce\bin\EntityFramework.SqlServer.xml
+d:\NopcartApi\WebApiNopCommerce\bin\Newtonsoft.Json.xml
+d:\NopcartApi\WebApiNopCommerce\bin\System.Net.Http.Formatting.xml
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.Helpers.xml
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.Http.xml
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.Http.WebHost.xml
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.Mvc.xml
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.Optimization.xml
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.Razor.xml
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.WebPages.xml
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.WebPages.Deployment.xml
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.WebPages.Razor.xml
+d:\NopcartApi\WebApiNopCommerce\bin\Antlr3.Runtime.pdb
+d:\NopcartApi\WebApiNopCommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+d:\NopcartApi\WebApiNopCommerce\obj\Debug\WebApiNopCommerce.csproj.CopyComplete
+d:\NopcartApi\WebApiNopCommerce\bin\System.Runtime.CompilerServices.Unsafe.dll
+d:\NopcartApi\WebApiNopCommerce\bin\Unity.Abstractions.dll
+d:\NopcartApi\WebApiNopCommerce\bin\Unity.Container.dll
+d:\NopcartApi\WebApiNopCommerce\bin\System.Runtime.CompilerServices.Unsafe.xml
+d:\NopcartApi\WebApiNopCommerce\bin\Unity.Abstractions.pdb
+d:\NopcartApi\WebApiNopCommerce\bin\Unity.Container.pdb
+d:\NopcartApi\WebApiNopCommerce\bin\Owin.dll
+d:\NopcartApi\WebApiNopCommerce\bin\Unity.Mvc5.dll
+d:\NopcartApi\WebApiNopCommerce\bin\Microsoft.Owin.Cors.dll
+d:\NopcartApi\WebApiNopCommerce\bin\Microsoft.Owin.dll
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.Cors.dll
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.Http.Cors.dll
+d:\NopcartApi\WebApiNopCommerce\bin\Microsoft.Owin.xml
+d:\NopcartApi\WebApiNopCommerce\bin\Microsoft.Owin.Cors.xml
+d:\NopcartApi\WebApiNopCommerce\bin\System.Web.Http.Cors.xml
+D:\NopcartApi\WebApiNopCommerce\obj\Debug\WebApiNopCommerce.csprojAssemblyReference.cache

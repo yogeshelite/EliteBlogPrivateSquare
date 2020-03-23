@@ -1,0 +1,84 @@
+﻿
+@{
+    ViewBag.Title = "Blog";
+}
+<section class="case_study_page_wrp">
+    <!-- start worldwide root -->
+
+    <main class="container">
+        <section>
+            <ul class="bread_crumbs">
+                <li style="margin-right: 5px;"><a href="@Url.Action("Index","Home")">HOME </a></li>
+                <li><span class="activated"> / BLOG</span></li>
+            </ul>
+        </section>
+        <article class="service_page_bnnr service_btm">
+            <!--container start-->
+            <h1>Got Queries? Don't worry <br> We'll answer them all</h1>
+        </article>
+    </main>
+    <!-- worldwide root end here -->
+    <main class="container">
+        <!-- faq start -->
+        <section class="filter_categry">
+            <h5 class="user_btm aos-item" data-aos="fade-up">Filter by Category</h5>
+            <ul class="filter_proces">
+                <!-- ul start -->
+                <li class="user_btm aos-item" data-aos="fade-right"><a href="#">USER EXPERIENCE</a></li>
+                <li class="user_btm aos-item" data-aos="fade-up"><a href="#" class="activated">Technology</a></li>
+                <li class="user_btm aos-item" data-aos="fade-left"><a href="#">TEAM</a></li>
+            </ul> <!-- ul end -->
+        </section>
+        <!-- user EXPERIENCE staRt -->
+        <section class="user_categery">
+            <ul>
+                <li class="categery_top"></li>
+                <li class="user_btm aos-item" data-aos="fade-up">
+                    <div class="user_categery_left">
+                        <p>USER EXPERIENCE</p>
+                        <h2>The Tried and True Laws of UX <br> [with Infographic]</h2>
+                        <h6>5 mins read</h6>
+                        <h3>Looking for the best whiskey mixed drinks and <br> recipes to create for …</h3>
+                        <a href="@Url.Action("Blog_Detail","Home")">READ MORE</a>
+                    </div>
+                    <img src="~/Content/Images/faq-1.png">
+                </li>
+                <li class="user_btm aos-item" data-aos="fade-up">
+                    <div class="user_categery_left">
+                        <p>USER EXPERIENCE</p>
+                        <h2>The Tried and True Laws of UX <br> [with Infographic]</h2>
+                        <h6>5 mins read</h6>
+                        <h3>Looking for the best whiskey mixed drinks and <br> recipes to create for …</h3>
+                        <a href="@Url.Action("Blog_Detail","Home")">READ MORE</a>
+                    </div>
+                    <img src="~/Content/Images/faq-2.png">
+                </li>
+                <li class="user_btm aos-item" data-aos="fade-up">
+                    <div class="user_categery_left">
+                        <p>USER EXPERIENCE</p>
+                        <h2>The Tried and True Laws of UX <br> [with Infographic]</h2>
+                        <h6>5 mins read</h6>
+                        <h3>Looking for the best whiskey mixed drinks and <br> recipes to create for …</h3>
+                        <a href="@Url.Action("Blog_Detail","Home")">READ MORE</a>
+                    </div>
+                    <img src="~/Content/Images/faq-3.png">
+                </li>
+                <li class="user_btm_categery aos-item" data-aos="fade-up">
+                    <div class="user_categery_left">
+                        <p>USER EXPERIENCE</p>
+                        <h2>The Tried and True Laws of UX <br> [with Infographic]</h2>
+                        <h6>5 mins read</h6>
+                        <h3>Looking for the best whiskey mixed drinks and <br> recipes to create for …</h3>
+                        <a href="@Url.Action("Blog_Detail","Home")">READ MORE</a>
+                    </div>
+                    <img src="~/Content/Images/faq-4.png">
+                </li>
+            </ul>
+        </section>
+        <!-- user EXPERIENCE end -->
+
+
+    </main><!-- faq end -->
+    <!--container end-->
+    @Html.Partial("~/Views/Shared/footer_top.cshtml")
+</section>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8b695dbadebb430caf10aceafe289196" Name="Diagram1">
+        <EntityTypeShape EntityType="PrivateSquaresModel.Address" Width="1.5" PointX="5.25" PointY="1.75" />
+        <EntityTypeShape EntityType="PrivateSquaresModel.BlogTable" Width="1.5" PointX="2.75" PointY="5.75" />
+        <EntityTypeShape EntityType="PrivateSquaresModel.Category" Width="1.5" PointX="0.75" PointY="6.125" />
+        <EntityTypeShape EntityType="PrivateSquaresModel.Profile" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="PrivateSquaresModel.Register" Width="1.5" PointX="0.75" PointY="2" />
+        <AssociationConnector Association="PrivateSquaresModel.FK_Address_Profile" />
+        <AssociationConnector Association="PrivateSquaresModel.FK_Profile_Category" />
+        <AssociationConnector Association="PrivateSquaresModel.FK_Profile_Register" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

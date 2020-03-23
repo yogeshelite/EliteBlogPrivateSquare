@@ -1,0 +1,178 @@
+﻿
+@{
+    ViewBag.Title = "Chili";
+    Layout = "~/Views/Shared/_MobileLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @*<link href="style.css" rel="stylesheet">*@
+    <link href="~/Content/Mobile/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    @*<link href="http://192.168.1.150:8080/EliteSite2k19/24_sep_keshav/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">*@
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap" rel="stylesheet"><!---google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap" rel="stylesheet"><!---google fonts-->
+    @* <link href="dist/aos.css" rel="stylesheet">*@
+    <link href="~/Content/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+    @Html.Partial("~/Views/Shared/Mobile_menu.cshtml")
+    @Html.Partial("~/Views/Shared/mobile_header.cshtml")
+    <main class="main-padding">
+        <!--main paddng start-->
+        <!---chuilli banner  start-->
+        <article class="chilli_banner aos-item" data-aos="fade-up">
+            <a href=""><img src="~/Content/Mobile/images/chilli_logo.png"></a>
+            <h1>Chilli for Smart Artwork and Marketing Material Creation</h1>
+        </article>
+
+        <!---chuilli banner  end-->
+        <!----graphic procress start-->
+        <div class="graphic_process aos-item" data-aos="fade-up">
+            <h1>Chilli simplifies and automate graphic processes in all verticals.</h1>
+
+
+        </div>
+
+        <div class="graphic_process_list">
+            <ul>
+                <li>
+                    <h3 class="graphic_commercial_print aos-item" data-aos="fade-up">
+                        <a href=""><img src="~/Content/Mobile/images/COMERCIAL-PRINT.png" alt="abc" class="graphic_commercial_img"></a>
+                    </h3>
+                    <div class="graphic_process_wdth">
+                        <h1 class="aos-item" data-aos="fade-up">Commercial Graphics</h1>
+                        <p class="aos-item" data-aos="fade-up">Get customizable smart templates easily scalable according to your <br>business needs for maximum customer retention.</p>
+                        <h4>Learn More<span><a href=""><img src="~/Content/Mobile/images/learn_icon.svg" class="aos-item" data-aos="fade-right" /></a></span></h4>
+                    </div>
+
+                </li>
+                <li class="graphic_process_list_border"></li>
+
+                <li>
+                    <h3 class="graphic_brands aos-item" data-aos="fade-up">
+                        <a href="">
+                            <img src="~/Content/Mobile/images/BRANDING-1.png" alt="abc" class="graphic_brands_1_img">
+                        </a><a href=""><img src="~/Content/Mobile/images/BRANDING-2.png" alt="abc" class="graphic_brands_2_img"></a>
+                    </h3>
+                    <div class="graphic_process_wdth">
+                        <h1 class="aos-item" data-aos="fade-up">Brand</h1>
+                        <p class="aos-item" data-aos="fade-up">Get customizable smart templates easily scalable according to your <br>business needs for maximum customer retention.</p>
+                        <h4>Learn More<span><a href=""><img src="~/Content/Mobile/images/learn_icon.svg" class="aos-item" data-aos="fade-right"></a></span></h4>
+                    </div>
+                </li>
+                <li class="graphic_process_list_border"></li>
+
+                <li>
+                    <h3 class="graphic_agencies aos-item" data-aos="fade-up">
+                        <a href=""><img src="~/Content/Mobile/images/maxresdefault.png" alt="abc" class="graphic_agencies_img"></a>
+                    </h3>
+                    <div class="graphic_process_wdth">
+                        <h1 class="aos-item" data-aos="fade-up">Agencies</h1>
+                        <p class="aos-item" data-aos="fade-up">Get customizable smart templates easily scalable according to your <br>business needs for maximum customer retention.</p>
+                        <h4>Learn More<span><a href=""><img src="~/Content/Mobile/images/learn_icon.svg" class="aos-item" data-aos="fade-right" /></a></span></h4>
+                    </div>
+                </li>
+                <li class="graphic_process_list_border"></li>
+
+
+                <li>
+                    <h3 class="graphic_packaging aos-item" data-aos="fade-right">
+                        <a href=""><img src="~/Content/Mobile/images/Packaging.png" alt="abc" class="graphic_packaging_img"></a>
+                    </h3>
+                    <div class="graphic_process_wdth">
+                        <h1 class="aos-item" data-aos="fade-up">Labels & Packaging</h1>
+                        <p class="aos-item" data-aos="fade-up">Get customizable smart templates easily scalable according to your <br>business needs for maximum customer retention.</p>
+                        <h4>Learn More<span><a href=""><img src="~/Content/Mobile/images/learn_icon.svg" class=" aos-item" data-aos="fade-right"></a></span></h4>
+                    </div>
+                </li>
+            </ul>
+
+
+        </div> <!----graphic procress end-->
+
+
+        <section class="chilli_simplify">
+            <!-- video start -->
+            <h2 class=" aos-item" data-aos="fade-up">Chilli simplifies and automate graphic processes in all verticals.</h2>
+
+            <div class="chilli-client-img">
+                <a href=""><img src="~/Content/Mobile/images/jtc-client-img1.png" width="100%" class="client-img-opa aos-item" data-aos="fade-up"></a>
+                <a href=""><img src="~/Content/Mobile/images/play-button.svg" class="player-button" width="32"></a>
+
+            </div>
+        </section><!-- video end -->
+
+        <section class="chilli_template">
+            <!-- What we can do for you? start-->
+            <h1 class=" class="aos-item" data-aos="fade-up">What we can do for you?</h1>
+
+            <section class="chilli_temp_box">
+                <section class="chilli_left_box">
+                    <h2><img src="~/Content/Mobile/images/icon_1.svg"></h2>
+                    <h3 class=" class="aos-item" data-aos="fade-right">Customize- Create your own smart templates and edit them online.</h3>
+                </section>
+                <section class="chilli_left_box">
+                    <h2><img src="~/Content/Mobile/images/icon_2.svg"></h2>
+                    <h3 class="aos-item" data-aos="fade-right">Customize- Create your own smart templates and edit them online.</h3>
+                </section>
+                <section class="chilli_left_box">
+                    <h2><img src="~/Content/Mobile/images/icon_3.svg"></h2>
+                    <h3 class="aos-item" data-aos="fade-right">Customize- Create your own smart templates and edit them online.</h3>
+                </section>
+                <section class="chilli_left_box">
+                    <h2><img src="~/Content/Mobile/images/icon_4.svg"></h2>
+                    <h3 class="aos-item" data-aos="fade-right">Customize- Create your own smart templates and edit them online.</h3>
+                </section>
+            </section>
+
+            <!--end What we can do for you?-->
+
+        </section>
+
+
+    </main>                           <!---main padding end-->
+    @Html.Partial("~/Views/Shared/mobile_Footer.cshtml")
+    @*<?php include("common/footer.php"); ?>*@ <!---footer php file ----->
+    @*<script src="js/custom.js" type="text/javascript"></script>*@
+    <script src="~/../../Content/Mobile/js/custom.js"></script>
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $(".imgdown").on("click", function () {
+                $(this).parent().find(".pcontent").removeClass("hide");
+                $(this).parent().find(".pcontent").addClass("display_content");
+                $(this).parent().find(".imgup").addClass("display_content");
+                $(this).parent().find(".imgup").removeClass("hide");
+                $(this).addClass("hide");
+            });
+            $(".imgup").on("click", function () {
+                $(this).parent().find(".pcontent").removeClass("display_content");
+                $(this).parent().find(".pcontent").addClass("hide");
+                $(this).parent().find(".imgdown").addClass("display_content");
+                $(this).parent().find(".imgdown").removeClass("hide");
+                $(this).addClass("hide");
+            });
+        });
+    </script>
+    @*<script src="dist/aos.js"></script>*@
+    <script src="~/../../Content/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EWT_NearbyCartModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Address">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar(max)" />
+    <Property Name="LastName" Type="nvarchar(max)" />
+    <Property Name="Email" Type="nvarchar(max)" />
+    <Property Name="Company" Type="nvarchar(max)" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="StateProvinceId" Type="int" />
+    <Property Name="City" Type="nvarchar(max)" />
+    <Property Name="Address1" Type="nvarchar(max)" />
+    <Property Name="Address2" Type="nvarchar(max)" />
+    <Property Name="ZipPostalCode" Type="nvarchar(max)" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" />
+    <Property Name="FaxNumber" Type="nvarchar(max)" />
+    <Property Name="CustomAttributes" Type="nvarchar(max)" />
+    <Property Name="CreatedOnUtc" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerGuid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Email" Type="nvarchar" MaxLength="1000" />
+    <Property Name="EmailToRevalidate" Type="nvarchar" MaxLength="1000" />
+    <Property Name="AdminComment" Type="nvarchar(max)" />
+    <Property Name="IsTaxExempt" Type="bit" Nullable="false" />
+    <Property Name="AffiliateId" Type="int" Nullable="false" />
+    <Property Name="VendorId" Type="int" Nullable="false" />
+    <Property Name="HasShoppingCartItems" Type="bit" Nullable="false" />
+    <Property Name="RequireReLogin" Type="bit" Nullable="false" />
+    <Property Name="FailedLoginAttempts" Type="int" Nullable="false" />
+    <Property Name="CannotLoginUntilDateUtc" Type="datetime" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="Deleted" Type="bit" Nullable="false" />
+    <Property Name="IsSystemAccount" Type="bit" Nullable="false" />
+    <Property Name="SystemName" Type="nvarchar" MaxLength="400" />
+    <Property Name="LastIpAddress" Type="nvarchar(max)" />
+    <Property Name="CreatedOnUtc" Type="datetime" Nullable="false" />
+    <Property Name="LastLoginDateUtc" Type="datetime" />
+    <Property Name="LastActivityDateUtc" Type="datetime" Nullable="false" />
+    <Property Name="RegisteredInStoreId" Type="int" Nullable="false" />
+    <Property Name="BillingAddress_Id" Type="int" />
+    <Property Name="ShippingAddress_Id" Type="int" />
+  </EntityType>
+  <EntityType Name="Vendor">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="400" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="400" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="PictureId" Type="int" Nullable="false" />
+    <Property Name="AddressId" Type="int" Nullable="false" />
+    <Property Name="AdminComment" Type="nvarchar(max)" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="Deleted" Type="bit" Nullable="false" />
+    <Property Name="DisplayOrder" Type="int" Nullable="false" />
+    <Property Name="MetaKeywords" Type="nvarchar" MaxLength="400" />
+    <Property Name="MetaDescription" Type="nvarchar(max)" />
+    <Property Name="MetaTitle" Type="nvarchar" MaxLength="400" />
+    <Property Name="PageSize" Type="int" Nullable="false" />
+    <Property Name="AllowCustomersToSelectPageSize" Type="bit" Nullable="false" />
+    <Property Name="PageSizeOptions" Type="nvarchar" MaxLength="200" />
+    <Property Name="CreatedDate" Type="date" />
+  </EntityType>
+  <EntityType Name="CustomerRedeemPoint">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PointRedeem" Type="int" />
+    <Property Name="OfferId" Type="int" />
+    <Property Name="CustomerId" Type="int" />
+    <Property Name="Promocode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Purchased" Type="bit" />
+    <Property Name="PurchasedDate" Type="datetime" />
+    <Property Name="RedeemDate" Type="datetime" />
+    <Property Name="PromoCodeExpiredDate" Type="datetime" />
+    <Property Name="Cancelled" Type="bit" />
+    <Property Name="CancellationDate" Type="date" />
+  </EntityType>
+  <EntityType Name="CustomerRewardPoints">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerId" Type="int" Nullable="false" />
+    <Property Name="StoreId" Type="int" Nullable="false" />
+    <Property Name="RewardPoint" Type="int" Nullable="false" />
+    <Property Name="BalancePoint" Type="int" />
+    <Property Name="Message" Type="nvarchar(max)" />
+    <Property Name="CreatedOnUtc" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Game">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GameName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="GamePlayChance">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerId" Type="int" />
+    <Property Name="GameId" Type="int" />
+    <Property Name="TotalChance" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ResetDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="GamePoint">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GameId" Type="int" />
+    <Property Name="CustomerId" Type="int" />
+    <Property Name="Points" Type="int" />
+    <Property Name="PlayDate" Type="date" />
+    <Property Name="Won" Type="bit" />
+  </EntityType>
+  <EntityType Name="GameVendorOffer">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="VendorId" Type="int" Nullable="false" />
+    <Property Name="Offer" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Image" Type="varbinary(max)" />
+    <Property Name="ImageType" Type="nvarchar" MaxLength="5" />
+    <Property Name="PointsRequired" Type="int" />
+    <Property Name="StartDate" Type="datetime" />
+    <Property Name="EndDate" Type="datetime" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="IsPublish" Type="bit" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="AddressLocation" Type="nvarchar(max)" />
+    <Property Name="SpecialOffer" Type="bit" />
+    <Property Name="IsExclusive" Type="bit" />
+    <Property Name="TermAndCondition" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="Customer_BillingAddress">
+    <End Role="Address" Type="Self.Address" Multiplicity="0..1" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Address">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="BillingAddress_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Customer_ShippingAddress">
+    <End Role="Address" Type="Self.Address" Multiplicity="0..1" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Address">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="ShippingAddress_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CustomerRewardPoints_Customer">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
+    <End Role="CustomerRewardPoints" Type="Self.CustomerRewardPoints" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CustomerRewardPoints">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GamePlayChance_Customer">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="GamePlayChance" Type="Self.GamePlayChance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GamePlayChance">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GamePlayChance_Game">
+    <End Role="Game" Type="Self.Game" Multiplicity="0..1" />
+    <End Role="GamePlayChance" Type="Self.GamePlayChance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Game">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="GamePlayChance">
+        <PropertyRef Name="GameId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GamePoint_Customer">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="GamePoint" Type="Self.GamePoint" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GamePoint">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GamePoint_Game">
+    <End Role="Game" Type="Self.Game" Multiplicity="0..1" />
+    <End Role="GamePoint" Type="Self.GamePoint" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Game">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="GamePoint">
+        <PropertyRef Name="GameId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GameUserRedeemPoint_Customer">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="CustomerRedeemPoint" Type="Self.CustomerRedeemPoint" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CustomerRedeemPoint">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GameUserRedeemPoint_GameVendorOffer">
+    <End Role="GameVendorOffer" Type="Self.GameVendorOffer" Multiplicity="0..1" />
+    <End Role="CustomerRedeemPoint" Type="Self.CustomerRedeemPoint" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GameVendorOffer">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CustomerRedeemPoint">
+        <PropertyRef Name="OfferId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GameVendorOffer_Vendor">
+    <End Role="Vendor" Type="Self.Vendor" Multiplicity="1" />
+    <End Role="GameVendorOffer" Type="Self.GameVendorOffer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vendor">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GameVendorOffer">
+        <PropertyRef Name="VendorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EWT_NearbyCartModelStoreContainer">
+    <EntitySet Name="Address" EntityType="Self.Address" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vendor" EntityType="Self.Vendor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CustomerRedeemPoint" EntityType="Self.CustomerRedeemPoint" Schema="TeamElite" store:Type="Tables" />
+    <EntitySet Name="CustomerRewardPoints" EntityType="Self.CustomerRewardPoints" Schema="TeamElite" store:Type="Tables" />
+    <EntitySet Name="Game" EntityType="Self.Game" Schema="TeamElite" store:Type="Tables" />
+    <EntitySet Name="GamePlayChance" EntityType="Self.GamePlayChance" Schema="TeamElite" store:Type="Tables" />
+    <EntitySet Name="GamePoint" EntityType="Self.GamePoint" Schema="TeamElite" store:Type="Tables" />
+    <EntitySet Name="GameVendorOffer" EntityType="Self.GameVendorOffer" Schema="TeamElite" store:Type="Tables" />
+    <AssociationSet Name="Customer_BillingAddress" Association="Self.Customer_BillingAddress">
+      <End Role="Address" EntitySet="Address" />
+      <End Role="Customer" EntitySet="Customer" />
+    </AssociationSet>
+    <AssociationSet Name="Customer_ShippingAddress" Association="Self.Customer_ShippingAddress">
+      <End Role="Address" EntitySet="Address" />
+      <End Role="Customer" EntitySet="Customer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CustomerRewardPoints_Customer" Association="Self.FK_CustomerRewardPoints_Customer">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="CustomerRewardPoints" EntitySet="CustomerRewardPoints" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GamePlayChance_Customer" Association="Self.FK_GamePlayChance_Customer">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="GamePlayChance" EntitySet="GamePlayChance" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GamePlayChance_Game" Association="Self.FK_GamePlayChance_Game">
+      <End Role="Game" EntitySet="Game" />
+      <End Role="GamePlayChance" EntitySet="GamePlayChance" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GamePoint_Customer" Association="Self.FK_GamePoint_Customer">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="GamePoint" EntitySet="GamePoint" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GamePoint_Game" Association="Self.FK_GamePoint_Game">
+      <End Role="Game" EntitySet="Game" />
+      <End Role="GamePoint" EntitySet="GamePoint" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GameUserRedeemPoint_Customer" Association="Self.FK_GameUserRedeemPoint_Customer">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="CustomerRedeemPoint" EntitySet="CustomerRedeemPoint" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GameUserRedeemPoint_GameVendorOffer" Association="Self.FK_GameUserRedeemPoint_GameVendorOffer">
+      <End Role="GameVendorOffer" EntitySet="GameVendorOffer" />
+      <End Role="CustomerRedeemPoint" EntitySet="CustomerRedeemPoint" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GameVendorOffer_Vendor" Association="Self.FK_GameVendorOffer_Vendor">
+      <End Role="Vendor" EntitySet="Vendor" />
+      <End Role="GameVendorOffer" EntitySet="GameVendorOffer" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

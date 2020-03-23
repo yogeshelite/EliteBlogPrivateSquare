@@ -1,0 +1,154 @@
+﻿
+@{
+    ViewBag.Title = "Careers";
+    Layout = "~/Views/Shared/_MobileLayout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @*<link href="style.css" rel="stylesheet">*@
+    <link href="~/Content/Mobile/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    @*<link href="http://192.168.1.150:8080/EliteSite2k19/24_sep_keshav/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">*@
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap" rel="stylesheet"><!---google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap" rel="stylesheet"><!---google fonts-->
+    @* <link href="dist/aos.css" rel="stylesheet">*@
+    <link href="~/Content/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+    @Html.Partial("~/Views/Shared/Mobile_menu.cshtml")
+    @Html.Partial("~/Views/Shared/mobile_header.cshtml")
+    <main class="main-padding">
+        <!--main paddng start-->
+
+        <div class="android-passionate aos-item" data-aos="fade-up">
+            <h3><span class="weare-text">We are</span> Passionate</h3>
+        </div>
+
+        <div class="weare-img-scn">
+            <img src="~/Content/Mobile/images/passionate-img1.png" width=100% class="aos-item" data-aos="fade-up" />
+        </div>
+
+        <div class="team_effort">
+            <!------team effort scn start------->
+
+            <div class="team_work">
+                <img src="/Content/Mobile/images/team-effrt-img1.svg" width="48" class="aos-item" data-aos="fade-down" />
+                <div class="team_left aos-item" data-aos="fade-right">
+                    <h2>Team Effort</h2>
+                    <p>I can’t say enough about how knowledgeable Toinette Rorie is in the area of Web Development. She indeed is a developer and can build a site from scratch.</p>
+                </div>
+            </div>
+            <div class="team_work">
+                <img src="/Content/Mobile/images/team-effrt-img3.svg" width="48" class="aos-item" data-aos="fade-down" />
+                <div class="team_left aos-item" data-aos="fade-right">
+                    <h2>Fun and Work</h2>
+                    <p>I can’t say enough about how knowledgeable Toinette Rorie is in the area of Web Development. She indeed is a developer and can build a site from scratch.</p>
+                </div>
+            </div>
+            <div class="team_work">
+                <img src="/Content/Mobile/images/team-effrt-img2.svg" width="48" class="aos-item" data-aos="fade-down" />
+                <div class="team_left aos-item" data-aos="fade-right">
+                    <h2>New learnings</h2>
+                    <p>I can’t say enough about how knowledgeable Toinette Rorie is in the area of Web Development. She indeed is a developer and can build a site from scratch.</p>
+                </div>
+            </div>
+            <div class="team_work">
+                <img src="/Content/Mobile/images/team-effrt-img4.svg" width="48" class="aos-item" data-aos="fade-down" />
+                <div class="team_left aos-item" data-aos="fade-right">
+                    <h2>Quality work</h2>
+                    <p>I can’t say enough about how knowledgeable Toinette Rorie is in the area of Web Development. She indeed is a developer and can build a site from scratch.</p>
+                </div>
+            </div>
+
+        </div>                <!------team effort scn start------->
+    </main>                        <!--main paddng end-->
+    <main class="main-padding"></main>
+    <section class="curnt_opning">
+        <main class="main-padding">
+            <!--main paddng start-->
+            <h1 class="aos-item" data-aos="fade-up">Current openings</h1>
+            <div class="full_stack aos-item" data-aos="fade-up">
+                <a href="@Url.Action("Career_Detail","Mobile")">
+                    <h2>Full Stack Developer</h2>
+                    <p>Our focus is on the whole child – mind, heart, body and spirit. At Wunder School we appreciate each.</p>
+                    <h5>Chandigarh</h5>
+                </a>
+            </div>
+
+            <div class="current_btm"></div>
+            <div class="full_stack aos-item" data-aos="fade-up">
+                <a href="@Url.Action("Career_Detail","Mobile")">
+                    <h2>Android Developer</h2>
+                    <p>Our focus is on the whole child – mind, heart, body and spirit. At Wunder School we appreciate each.</p>
+                    <h5>Chandigarh</h5>
+                </a>
+            </div>
+            <div class="current_btm"></div>
+            <div class="full_stack aos-item" data-aos="fade-up">
+                <a href="@Url.Action("Career_Detail","Mobile")">
+                    <h2>Business Analyst</h2>
+                    <p>Our focus is on the whole child – mind, heart, body and spirit. At Wunder School we appreciate each.</p>
+                    <h5>Chandigarh</h5>
+                </a>
+            </div>
+            <div class="current_btm"></div>
+            <div class="full_stack aos-item" data-aos="fade-up">
+                <a href="@Url.Action("Career_Detail","Mobile")">
+                    <h2>Business Analyst</h2>
+                    <p>Our focus is on the whole child – mind, heart, body and spirit. At Wunder School we appreciate each.</p>
+                    <h5>Chandigarh</h5>
+                </a>
+            </div>
+            <div class="current_btm"></div>
+            <div class="full_stack aos-item" data-aos="fade-up">
+                <a href="@Url.Action("Career_Detail","Mobile")">
+                    <h2>Can't find your profile?</h2>
+                    <p>Our focus is on the whole child – mind, heart, body and spirit. At Wunder School we appreciate each.</p>
+                    <a href="#" class=" full_email">careers@elitewebtechnologies.com</a>
+                </a>
+            </div>
+        </main>
+    </section>
+    @Html.Partial("~/Views/Shared/mobile_Footer.cshtml")
+    @*<?php include("common/footer.php"); ?>*@ <!---footer php file ----->
+    @*<script src="js/custom.js" type="text/javascript"></script>*@
+    <script src="~/../../Content/Mobile/js/custom.js"></script>
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $(".imgdown").on("click", function () {
+                $(this).parent().find(".pcontent").removeClass("hide");
+                $(this).parent().find(".pcontent").addClass("display_content");
+                $(this).parent().find(".imgup").addClass("display_content");
+                $(this).parent().find(".imgup").removeClass("hide");
+                $(this).addClass("hide");
+            });
+            $(".imgup").on("click", function () {
+                $(this).parent().find(".pcontent").removeClass("display_content");
+                $(this).parent().find(".pcontent").addClass("hide");
+                $(this).parent().find(".imgdown").addClass("display_content");
+                $(this).parent().find(".imgdown").removeClass("hide");
+                $(this).addClass("hide");
+            });
+        });
+    </script>
+    @*<script src="dist/aos.js"></script>*@
+    <script src="~/../../Content/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
+</body>
+</html>

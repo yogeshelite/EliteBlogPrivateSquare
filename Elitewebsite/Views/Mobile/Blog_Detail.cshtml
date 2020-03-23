@@ -1,0 +1,134 @@
+﻿
+@{
+    ViewBag.Title = "Blog_Detail";
+    Layout = "~/Views/Shared/_MobileLayout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @*<link href="style.css" rel="stylesheet">*@
+    <link href="~/Content/Mobile/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    @*<link href="http://192.168.1.150:8080/EliteSite2k19/24_sep_keshav/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">*@
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap" rel="stylesheet"><!---google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap" rel="stylesheet"><!---google fonts-->
+    @* <link href="dist/aos.css" rel="stylesheet">*@
+    <link href="~/Content/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+    @Html.Partial("~/Views/Shared/Mobile_menu.cshtml")
+    @Html.Partial("~/Views/Shared/mobile_header.cshtml")
+
+    <main class="main-padding">
+        <!--main paddng start-->
+        <!---blog banner  start-->
+        <article class="chilli_banner aos-item" data-aos="fade-up">
+            <h1>If You Don’t Know What You Want, This Is For You</h1>
+            <p>5 mins read</p>
+        </article>   <!-- blog-baner end -->
+
+
+
+        <div class="graphic_process_list aos-item" data-aos="fade-down">
+            <img src="~/Content/Mobile/images/blog-banr.png" width="100%" />
+        </div>
+
+        <div class="blog_rember">
+            <p class="aos-item" data-aos="fade-up">Remember when your mother warned you not to run down the stairs because you could fall and hurt yourself? Or when you held your palm over a candle’s flame and started feeling the burn? The “laws of UX” are similar — they are cause and effect relationships where one event (the cause) makes another event happen (the effect). Whether a designer acknowledges them or not, the “laws” rule and operate — and will affect the effectiveness of a design.</p>
+            <p class="aos-item" data-aos="fade-up">Take Miller’s Law, for example, which states that “the average person can only keep around seven items in their working memory.” When the rule is disregarded, people are forced to think more than they should have to. UX professionals refer to this phenomenon as cognitive overload. </p>
+            <p class="aos-item" data-aos="fade-up">Ignoring Miller’s Law can have negative consequences that may impede the UX, i.e., if there are too many things people have to remember, it could cause frustration and decision paralysis.</p>
+        </div>
+
+        <div class="graphic_process_list aos-item" data-aos="fade-up">
+            <img src="~/Content/Mobile/images/active-feed.png" width="100%" />
+        </div>
+
+        <div class="blog_rember">
+            <p class="aos-item" data-aos="fade-up">Remember when your mother warned you not to run down the stairs because you could fall and hurt yourself? Or when you held your palm over a candle’s flame and started feeling the burn? The “laws of UX” are similar — they are cause and effect relationships where one event (the cause) makes another event happen (the effect). Whether a designer acknowledges them or not, the “laws” rule and operate — and will affect the effectiveness of a design.</p>
+            <p class="aos-item" data-aos="fade-up">Take Miller’s Law, for example, which states that “the average person can only keep around seven items in their working memory.” When the rule is disregarded, people are forced to think more than they should have to. UX professionals refer to this phenomenon as cognitive overload. </p>
+            <p class="aos-item" data-aos="fade-up">Ignoring Miller’s Law can have negative consequences that may impede the UX, i.e., if there are too many things people have to remember, it could cause frustration and decision paralysis.</p>
+        </div>
+    </main>                           <!---main padding end-->
+
+    <div class="home_wrp aos-item" data-aos="fade-up">
+        <div class="blog_more_read">
+
+            <h6>More Stuff To Read</h6>
+            <img src="~/Content/Mobile/images/cnha6ghx.png" />
+            <div class="blog_more_read_pro">
+                <h4>DEVELOPMENT</h4>
+                <h5>If You Don’t Know What You Want, This Is For You</h5>
+                <span>5 mins read</span>
+                <p>Looking for the best whiskey mixed drinks and recipes to create for …</p>
+            </div>
+
+
+        </div>
+
+        <div class="blog_more_read mt_20">
+            <img src="~/Content/Mobile/images/cnha6ghx.png" />
+            <div class="blog_more_read_pro">
+                <h4>DEVELOPMENT</h4>
+                <h5>If You Don’t Know What You Want, This Is For You</h5>
+                <span>5 mins read</span>
+                <p>Looking for the best whiskey mixed drinks and recipes to create for …</p>
+            </div>
+        </div>
+
+        <div class="blog_more_read mt_20">
+            <img src="~/Content/Mobile/images/cnha6ghx.png" />
+            <div class="blog_more_read_pro">
+                <h4>DEVELOPMENT</h4>
+                <h5>If You Don’t Know What You Want, This Is For You</h5>
+                <span>5 mins read</span>
+                <p>Looking for the best whiskey mixed drinks and recipes to create for …</p>
+            </div>
+        </div>
+
+        <div class="blog_more_read mt_20">
+            <img src="~/Content/Mobile/images/cnha6ghx.png" />
+            <div class="blog_more_read_pro">
+                <h4>DEVELOPMENT</h4>
+                <h5>If You Don’t Know What You Want, This Is For You</h5>
+                <span>5 mins read</span>
+                <p>Looking for the best whiskey mixed drinks and recipes to create for …</p>
+            </div>
+        </div>
+    </div>
+    @Html.Partial("~/Views/Shared/mobile_Footer.cshtml")
+    @*<?php include("common/footer.php"); ?>*@ <!---footer php file ----->
+    @*<script src="js/custom.js" type="text/javascript"></script>*@
+    <script src="~/../../Content/Mobile/js/custom.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".imgdown").on("click", function () {
+                $(this).parent().find(".pcontent").removeClass("hide");
+                $(this).parent().find(".pcontent").addClass("display_content");
+                $(this).parent().find(".imgup").addClass("display_content");
+                $(this).parent().find(".imgup").removeClass("hide");
+                $(this).addClass("hide");
+            });
+            $(".imgup").on("click", function () {
+                $(this).parent().find(".pcontent").removeClass("display_content");
+                $(this).parent().find(".pcontent").addClass("hide");
+                $(this).parent().find(".imgdown").addClass("display_content");
+                $(this).parent().find(".imgdown").removeClass("hide");
+                $(this).addClass("hide");
+            });
+        });
+    </script>
+    @*<script src="dist/aos.js"></script>*@
+    <script src="~/../../Content/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
+
+</body>
+</html>

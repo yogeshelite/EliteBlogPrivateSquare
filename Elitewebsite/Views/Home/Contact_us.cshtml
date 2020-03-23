@@ -1,0 +1,140 @@
+﻿
+@{
+    ViewBag.Title = "Contact_us";
+}
+
+<section class="contact_2_page_wrp">
+    <!-- start worldwide root -->
+    <main class="container">
+
+        <!--bread crums start-->
+        <section>
+
+            <ul class="bread_crumbs">
+                <li style="margin-right: 5px;"><a href="@Url.Action("Index","Home")">HOME </a></li>
+                <li><span class="activated">/ CONTACT US</span></li>
+            </ul>
+        </section>
+        <!--bread crums end-->
+        <article class="contact_2_banner">
+            <!--container start-->
+            <h1>Build, Create, Innovate.<br>Let’s Begin Today!</h1>
+        </article>
+    </main>
+    <!-- worldwide root end here -->
+    <main class="container">
+        <!-- start form -->
+        <section class="contact_form_section">
+            <section class="contact_form">
+                <h2>Looking for?</h2>
+                <section class="product_wrapper_1">
+                    <div class="ux_btn"><a href="">UI UX Design</a></div>
+                    <div class="mobile_btn"><a href="">Mobile Application</a></div>
+                    <div class="back_end_btn"><a href="">Back end</a></div>
+
+                </section>
+                <section class="product_wrapper_2">
+                    <div class="brand_btn"><a href="">BRAND IDENTITY</a></div>
+                    <div class="career_btn"><a href="">Careers</a></div>
+                    <div class="other_btn"><a href="">Other</a></div>
+
+                </section>
+
+                <div class="clearfix"></div>
+
+                <section class="Country_lable">
+
+
+                    <div class="mat-div aos-item" data-aos="fade-up" ">
+                        <label for="address" class="mat-label">Name</label>
+                        <input type="text" class="mat-input" id="address">
+                    </div>
+
+                    <div class="mat-div aos-item" data-aos="fade-up" ">
+                        <label for="address" class="mat-label">Email</label>
+                        <input type="email" class="mat-input" id="address">
+                    </div>
+
+                    <div class="mat-div aos-item" data-aos="fade-up" ">
+                        <label for="address" class="mat-label">Company Name</label>
+                        <input type="text" class="mat-input" id="address">
+                    </div>
+                    <div class="mat-div mb_34 aos-item" data-aos="fade-up" ">
+                        <label for="address" class="mat-label">Your Message</label>
+                        <input type="text" class="mat-input" id="address">
+                    </div>
+                    <div class="submit_btn  aos-item" data-aos="fade-up">
+
+                        <a href="#" class="submit_btn">Submit</a>
+                    </div>
+
+                </section>
+
+
+
+
+            </section>
+
+            <section class="contact_logo_wth">
+                <img src="~/Content/Images/audi_black_vector_logo.svg">
+
+
+            </section>
+
+        </section>
+
+        <!-- end form-->
+
+    </main>  <!--container end-->
+    @Html.Partial("~/Views/Shared/footer_top.cshtml")
+
+</section>
+
+
+<!--client start-->
+<div class="clearfix"></div>
+<!-- /.row -->
+<!-------------------- Footer section start------------------------->
+<!-- /.container -->
+<!--<script src="plugin/owl/assets/vendors/jquery.mousewheel.min.js"></script>-->
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.min.js'></script>
+<script>
+    /* form javascipt start */
+    $(".mat-input").focus(function () {
+        $(this).parent().addClass("is-active is-completed");
+    });
+
+    $(".mat-input").focusout(function () {
+        if ($(this).val() === "")
+            $(this).parent().removeClass("is-completed");
+        $(this).parent().removeClass("is-active");
+    })
+
+
+
+
+    /*  <label for="address" class="mat-label">Mobile No.</label>
+         <input type="number" class="mat-input" id="address"> */
+
+    $(".mat-select").focus(function () {
+        $(this).parent().addClass("is-active is-completed");
+    });
+
+    $(".mat-select").focusout(function () {
+        if ($(this).val() === "")
+            $(this).parent().removeClass("is-completed");
+        $(this).parent().removeClass("is-active");
+    })
+</script>
+
+
+<script>
+    AOS.init({
+        easing: 'ease-in-out-sine'
+    });
+</script>
+
+
+

@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "Contact_Type";
+}
+<section class="contact_1_page_wrp">
+    <!-- start worldwide root -->
+    <main class="container">
+        <section>
+            <ul class="bread_crumbs">
+                <li style="margin-right: 5px;"><a href="@Url.Action("Index","Home")">HOME </a></li>
+                <li><span class="activated">/ CONTACT US</span></li>
+            </ul>
+        </section>
+
+        <article class="contact_banner">
+            <!--container start-->
+            <h1>We love collaborations <br>to create products</h1>
+        </article>
+    </main>
+    <!-- worldwide root end here -->
+    <main class="container">
+        <!-- start project section -->
+
+        <section class="start_project_banner">
+            <section class="start_project">
+
+                <h1>A New Project?</h1>
+                <p>Have an idea on your mind? Let’s explore it together.</p>
+                <h2>Discuss<span><a href="@Url.Action("Contact_us","Home")"><img src="~/Content/Images/rgt_arrow.svg" class="aos-item" data-aos="fade-left" /></a></span></h2>
+                <h3 class="border_bottom"></h3>
+                <h4 class="aos-item" data-aos="fade-up"><a href="">sales@elitewebtechnologies.com</a></h4>
+
+
+            </section>
+
+            <section class="start_project">
+
+                <h1>Work With Us</h1>
+                <p>Rebel at heart, are we? Creative by nature? Let’s talk.</p>
+                <h2>Chat<span><a href="@Url.Action("Contact_us","Home")"><img src="~/Content/Images/rgt_arrow.svg" class="aos-item" data-aos="fade-left" /></a></span></h2>
+                <h3></h3>
+                <h4 class="aos-item" data-aos="fade-up"><a href="">career@elitewebtechnologies.com</a></h4>
+
+
+            </section>
+
+
+            <section class="start_project start_project_last">
+
+                <h1>Seeking Consultation?</h1>
+                <p>Drop a message and we’ll help you find what you’re looking for.</p>
+                <h2>Talk<span><a href="@Url.Action("Contact_us","Home")"><img src="~/Content/Images/rgt_arrow.svg" class="aos-item" data-aos="fade-left" /></a></span></h2>
+                <h3 class="border_bottom"></h3>
+                <h4 class="aos-item" data-aos="fade-up"><a href="">career@elitewebtechnologies.com</a></h4>
+
+
+            </section>
+
+            <!-- end projectsection -->
+        </section>
+    </main>  <!--container end-->
+    @Html.Partial("~/Views/Shared/footer_top.cshtml")
+
+</section>

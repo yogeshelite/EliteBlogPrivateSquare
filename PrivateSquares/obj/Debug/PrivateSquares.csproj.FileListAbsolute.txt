@@ -1,0 +1,154 @@
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\PrivateSquares.dll.config
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\PrivateSquares.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\PrivateSquares.pdb
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\csc.exe
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\csc.exe.config
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\csc.rsp
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\csi.exe
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\csi.exe.config
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\csi.rsp
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.AppContext.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.Console.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.IO.Compression.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.Security.Claims.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.ValueTuple.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\vbc.exe
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\vbc.exe.config
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\vbc.rsp
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\VBCSCompiler.exe
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\EntityFramework.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\EntityFramework.SqlServer.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\System.Web.Helpers.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\System.Web.Mvc.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\System.Web.Razor.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\System.Web.Webpages.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\System.Web.Webpages.Razor.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\EntityFramework.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\EntityFramework.SqlServer.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\System.Web.Razor.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\System.Web.Webpages.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\System.Web.Webpages.Razor.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\System.Web.Helpers.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\System.Web.Mvc.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\obj\Debug\PrivateSquares.csproj.CoreCompileInputs.cache
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\obj\Debug\PrivateSquares.csproj.CopyComplete
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\obj\Debug\PrivateSquares.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\obj\Debug\PrivateSquares.pdb
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\Newtonsoft.Json.dll
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\bin\Newtonsoft.Json.xml
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\obj\Debug\PrivateSquares.csprojAssemblyReference.cache
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\obj\Debug\PrivateSquares.Properties.Resources.resources
+C:\Users\Elite\Documents\Visual Studio 2017\Projects\PrivateSquares\PrivateSquares\obj\Debug\PrivateSquares.csproj.GenerateResource.cache
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\PrivateSquares.dll.config
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\PrivateSquares.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\PrivateSquares.pdb
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\csc.exe
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\csc.exe.config
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\csc.rsp
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\csi.exe
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\csi.exe.config
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\csi.rsp
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.AppContext.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.Collections.Immutable.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.Console.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.IO.Compression.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.IO.FileSystem.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.IO.Pipes.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.Security.AccessControl.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.Security.Claims.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.ValueTuple.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.Xml.XPath.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\vbc.exe
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\vbc.exe.config
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\vbc.rsp
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\VBCSCompiler.exe
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\roslyn\VBCSCompiler.exe.config
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\EntityFramework.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\EntityFramework.SqlServer.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\Microsoft.Web.Infrastructure.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\Newtonsoft.Json.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\System.Web.Helpers.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\System.Web.Mvc.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\System.Web.Razor.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\System.Web.Webpages.Deployment.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\System.Web.Webpages.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\System.Web.Webpages.Razor.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\EntityFramework.xml
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\EntityFramework.SqlServer.xml
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\Newtonsoft.Json.xml
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\System.Web.Razor.xml
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\System.Web.Webpages.xml
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\System.Web.Webpages.Deployment.xml
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\System.Web.Webpages.Razor.xml
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\System.Web.Helpers.xml
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\System.Web.Mvc.xml
+D:\Project\PrivateSquares-Contact\PrivateSquares\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project\PrivateSquares-Contact\PrivateSquares\obj\Debug\PrivateSquares.csprojAssemblyReference.cache
+D:\Project\PrivateSquares-Contact\PrivateSquares\obj\Debug\PrivateSquares.Properties.Resources.resources
+D:\Project\PrivateSquares-Contact\PrivateSquares\obj\Debug\PrivateSquares.csproj.GenerateResource.cache
+D:\Project\PrivateSquares-Contact\PrivateSquares\obj\Debug\PrivateSquares.csproj.CoreCompileInputs.cache
+D:\Project\PrivateSquares-Contact\PrivateSquares\obj\Debug\PrivateSquares.csproj.CopyComplete
+D:\Project\PrivateSquares-Contact\PrivateSquares\obj\Debug\PrivateSquares.dll
+D:\Project\PrivateSquares-Contact\PrivateSquares\obj\Debug\PrivateSquares.pdb

@@ -1,0 +1,125 @@
+﻿
+@{
+    ViewBag.Title = "Blog";
+    Layout = "~/Views/Shared/_MobileLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @*<link href="style.css" rel="stylesheet">*@
+    <link href="~/Content/Mobile/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    @*<link href="http://192.168.1.150:8080/EliteSite2k19/24_sep_keshav/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">*@
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap" rel="stylesheet"><!---google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap" rel="stylesheet"><!---google fonts-->
+    @* <link href="dist/aos.css" rel="stylesheet">*@
+    <link href="~/Content/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+    @Html.Partial("~/Views/Shared/Mobile_menu.cshtml")
+    @Html.Partial("~/Views/Shared/mobile_header.cshtml")
+
+    <main class="main-padding">
+        <!--main paddng start-->
+        <!---blog banner  start-->
+        <article class="chilli_banner_1 aos-item" data-aos="fade-up">
+            <h1>Got Queries? Don't worry We'll answer them all</h1>
+        </article>   <!-- blog-baner end -->
+        <!---  Filter by Category section start here   -->
+
+        <div class="Filter_button">
+            <div class="button_text">
+                <p>Filter by Category</p>
+                <ul class="Filter_section">
+                    <li class="aos-item" data-aos="fade-down"><a href="#">USER EXPERIENCE</a></li>
+                    <li class="aos-item" data-aos="fade-down"><a href="#" class="color_text">Technology</a></li>
+                    <li class="aos-item" data-aos="fade-up"><a href="#"> TEAM</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!---  Filter by Category section end here   -->
+        <!---- user experience section start here ---->
+
+        <div class="main_wrp">
+            <div class="user_experience">
+                <img src="~/Content/Mobile/images/dmpyyhy4.png" width="100%" class=" class="aos-item" data-aos="flip-up" />
+                <h4 class="aos-item" data-aos="fade-up">USER EXPERIENCE</h4>
+                <h5 class="aos-item" data-aos="fade-up">The Tried and True Laws of UX [with Infographic]</h5>
+                <p class="aos-item" data-aos="fade-up">5 mins read</p>
+                <h6 class="aos-item" data-aos="fade-up">Looking for the best whiskey mixed drinks and recipes to create for …</h6>
+                <a href="#" class="check_read_btn" class="aos-item" data-aos="fade-up">READ MORE</a>
+            </div>
+
+            <div class="user_experience mt_30">
+                <img src="~/Content/Mobile/images/bhsjwl62.png" width="100%" class="aos-item" data-aos="flip-up" />
+                <h4 class="aos-item" data-aos="fade-up">USER EXPERIENCE</h4>
+                <h5 class="aos-item" data-aos="fade-up">The Tried and True Laws of UX [with Infographic]</h5>
+                <p class="aos-item" data-aos="fade-up">5 mins read</p>
+                <h6 class="aos-item" data-aos="fade-up ">Looking for the best whiskey mixed drinks and recipes to create for …</h6>
+                <a href="#" class="check_read_btn aos-item" data-aos="fade-up">READ MORE</a>
+            </div>
+
+            <div class="user_experience mt_30">
+                <img src="~/Content/Mobile/images/pft7070n.png" width="100%" class="aos-item" data-aos="flip-up" />
+                <h4 class="aos-item" data-aos="fade-up">USER EXPERIENCE</h4>
+                <h5 class="aos-item" data-aos="fade-up">The Tried and True Laws of UX [with Infographic]</h5>
+                <p class="aos-item" data-aos="fade-up">5 mins read</p>
+                <h6 class="aos-item" data-aos="fade-up">Looking for the best whiskey mixed drinks and recipes to create for …</h6>
+                <a href="#" class="check_read_btn aos-item" data-aos="fade-up">READ MORE</a>
+            </div>
+
+            <div class="user_experience mt_30 mt_0">
+                <img src="~/Content/Mobile/images/395wcxjq.png" width="100%" class="aos-item" data-aos="flip-up" />
+                <h4 class="aos-item" data-aos="fade-up">USER EXPERIENCE</h4>
+                <h5 class="aos-item" data-aos="fade-up">The Tried and True Laws of UX [with Infographic]</h5>
+                <p class="aos-item" data-aos="fade-up">5 mins read</p>
+                <h6 class="aos-item" data-aos="fade-up">Looking for the best whiskey mixed drinks and recipes to create for …</h6>
+                <a href="#" class="check_read_btn aos-item" data-aos="fade-up">READ MORE</a>
+            </div>
+
+        </div>
+
+
+        <!---- user experience section end here ---->
+    </main>
+    @Html.Partial("~/Views/Shared/mobile_Footer.cshtml")
+    @*<?php include("common/footer.php"); ?>*@ <!---footer php file ----->
+    @*<script src="js/custom.js" type="text/javascript"></script>*@
+    <script src="~/../../Content/Mobile/js/custom.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".imgdown").on("click", function () {
+                $(this).parent().find(".pcontent").removeClass("hide");
+                $(this).parent().find(".pcontent").addClass("display_content");
+                $(this).parent().find(".imgup").addClass("display_content");
+                $(this).parent().find(".imgup").removeClass("hide");
+                $(this).addClass("hide");
+            });
+            $(".imgup").on("click", function () {
+                $(this).parent().find(".pcontent").removeClass("display_content");
+                $(this).parent().find(".pcontent").addClass("hide");
+                $(this).parent().find(".imgdown").addClass("display_content");
+                $(this).parent().find(".imgdown").removeClass("hide");
+                $(this).addClass("hide");
+            });
+        });
+    </script>
+    @*<script src="dist/aos.js"></script>*@
+    <script src="~/../../Content/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
+</body>
+</html>

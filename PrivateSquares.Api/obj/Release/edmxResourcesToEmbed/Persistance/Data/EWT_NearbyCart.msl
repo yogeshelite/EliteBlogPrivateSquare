@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EWT_NearbyCartModelStoreContainer" CdmEntityContainer="EWT_NearbyCartEntities1">
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="EWT_NearbyCartModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="ShippingAddress_Id" ColumnName="ShippingAddress_Id" />
+          <ScalarProperty Name="BillingAddress_Id" ColumnName="BillingAddress_Id" />
+          <ScalarProperty Name="RegisteredInStoreId" ColumnName="RegisteredInStoreId" />
+          <ScalarProperty Name="LastActivityDateUtc" ColumnName="LastActivityDateUtc" />
+          <ScalarProperty Name="LastLoginDateUtc" ColumnName="LastLoginDateUtc" />
+          <ScalarProperty Name="CreatedOnUtc" ColumnName="CreatedOnUtc" />
+          <ScalarProperty Name="LastIpAddress" ColumnName="LastIpAddress" />
+          <ScalarProperty Name="SystemName" ColumnName="SystemName" />
+          <ScalarProperty Name="IsSystemAccount" ColumnName="IsSystemAccount" />
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="CannotLoginUntilDateUtc" ColumnName="CannotLoginUntilDateUtc" />
+          <ScalarProperty Name="FailedLoginAttempts" ColumnName="FailedLoginAttempts" />
+          <ScalarProperty Name="RequireReLogin" ColumnName="RequireReLogin" />
+          <ScalarProperty Name="HasShoppingCartItems" ColumnName="HasShoppingCartItems" />
+          <ScalarProperty Name="VendorId" ColumnName="VendorId" />
+          <ScalarProperty Name="AffiliateId" ColumnName="AffiliateId" />
+          <ScalarProperty Name="IsTaxExempt" ColumnName="IsTaxExempt" />
+          <ScalarProperty Name="AdminComment" ColumnName="AdminComment" />
+          <ScalarProperty Name="EmailToRevalidate" ColumnName="EmailToRevalidate" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="CustomerGuid" ColumnName="CustomerGuid" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerRedeemPoints">
+      <EntityTypeMapping TypeName="EWT_NearbyCartModel.CustomerRedeemPoint">
+        <MappingFragment StoreEntitySet="CustomerRedeemPoint">
+          <ScalarProperty Name="CancellationDate" ColumnName="CancellationDate" />
+          <ScalarProperty Name="Cancelled" ColumnName="Cancelled" />
+          <ScalarProperty Name="PromoCodeExpiredDate" ColumnName="PromoCodeExpiredDate" />
+          <ScalarProperty Name="RedeemDate" ColumnName="RedeemDate" />
+          <ScalarProperty Name="PurchasedDate" ColumnName="PurchasedDate" />
+          <ScalarProperty Name="Purchased" ColumnName="Purchased" />
+          <ScalarProperty Name="Promocode" ColumnName="Promocode" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="OfferId" ColumnName="OfferId" />
+          <ScalarProperty Name="PointRedeem" ColumnName="PointRedeem" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerRewardPoints">
+      <EntityTypeMapping TypeName="EWT_NearbyCartModel.CustomerRewardPoint">
+        <MappingFragment StoreEntitySet="CustomerRewardPoints">
+          <ScalarProperty Name="CreatedOnUtc" ColumnName="CreatedOnUtc" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="BalancePoint" ColumnName="BalancePoint" />
+          <ScalarProperty Name="RewardPoint" ColumnName="RewardPoint" />
+          <ScalarProperty Name="StoreId" ColumnName="StoreId" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Games">
+      <EntityTypeMapping TypeName="EWT_NearbyCartModel.Game">
+        <MappingFragment StoreEntitySet="Game">
+          <ScalarProperty Name="GameName" ColumnName="GameName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GamePoints">
+      <EntityTypeMapping TypeName="EWT_NearbyCartModel.GamePoint">
+        <MappingFragment StoreEntitySet="GamePoint">
+          <ScalarProperty Name="Won" ColumnName="Won" />
+          <ScalarProperty Name="PlayDate" ColumnName="PlayDate" />
+          <ScalarProperty Name="Points" ColumnName="Points" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="GameId" ColumnName="GameId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vendors">
+      <EntityTypeMapping TypeName="EWT_NearbyCartModel.Vendor">
+        <MappingFragment StoreEntitySet="Vendor">
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="PageSizeOptions" ColumnName="PageSizeOptions" />
+          <ScalarProperty Name="AllowCustomersToSelectPageSize" ColumnName="AllowCustomersToSelectPageSize" />
+          <ScalarProperty Name="PageSize" ColumnName="PageSize" />
+          <ScalarProperty Name="MetaTitle" ColumnName="MetaTitle" />
+          <ScalarProperty Name="MetaDescription" ColumnName="MetaDescription" />
+          <ScalarProperty Name="MetaKeywords" ColumnName="MetaKeywords" />
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="AdminComment" ColumnName="AdminComment" />
+          <ScalarProperty Name="AddressId" ColumnName="AddressId" />
+          <ScalarProperty Name="PictureId" ColumnName="PictureId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GamePlayChances">
+      <EntityTypeMapping TypeName="EWT_NearbyCartModel.GamePlayChance">
+        <MappingFragment StoreEntitySet="GamePlayChance">
+          <ScalarProperty Name="ResetDate" ColumnName="ResetDate" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="TotalChance" ColumnName="TotalChance" />
+          <ScalarProperty Name="GameId" ColumnName="GameId" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GameVendorOffers">
+      <EntityTypeMapping TypeName="EWT_NearbyCartModel.GameVendorOffer">
+        <MappingFragment StoreEntitySet="GameVendorOffer">
+          <ScalarProperty Name="TermAndCondition" ColumnName="TermAndCondition" />
+          <ScalarProperty Name="IsExclusive" ColumnName="IsExclusive" />
+          <ScalarProperty Name="SpecialOffer" ColumnName="SpecialOffer" />
+          <ScalarProperty Name="AddressLocation" ColumnName="AddressLocation" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsPublish" ColumnName="IsPublish" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="PointsRequired" ColumnName="PointsRequired" />
+          <ScalarProperty Name="ImageType" ColumnName="ImageType" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Offer" ColumnName="Offer" />
+          <ScalarProperty Name="VendorId" ColumnName="VendorId" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Addresses">
+      <EntityTypeMapping TypeName="EWT_NearbyCartModel.Address">
+        <MappingFragment StoreEntitySet="Address">
+          <ScalarProperty Name="CreatedOnUtc" ColumnName="CreatedOnUtc" />
+          <ScalarProperty Name="CustomAttributes" ColumnName="CustomAttributes" />
+          <ScalarProperty Name="FaxNumber" ColumnName="FaxNumber" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="ZipPostalCode" ColumnName="ZipPostalCode" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="StateProvinceId" ColumnName="StateProvinceId" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
